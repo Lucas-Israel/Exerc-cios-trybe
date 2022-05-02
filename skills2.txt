@@ -1,8 +1,0 @@
-internet
-unix
-bash
-dia
-noite
-rua
-arvore
-fruta
