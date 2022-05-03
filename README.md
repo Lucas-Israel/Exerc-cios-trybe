@@ -1,10 +1,10 @@
-# Trybe
+## Trybe
 
 
 # HEAVY WIP!!!
 
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por [Lucas Israel](LinkDoSeuLinkedinAqui) enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por [Lucas Israel](LinkDoSeuLinkedinAqui) enquanto estudava na [Trybe](https://www.betrybe.com/)
 
 "A Trybe é uma escola do futuro para quem quer melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando consegue um bom emprego."
 
