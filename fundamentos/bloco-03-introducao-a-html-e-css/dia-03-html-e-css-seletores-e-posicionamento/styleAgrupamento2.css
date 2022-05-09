@@ -1,46 +1,38 @@
-div:nth-child(3):hover {
-    background-color: lightblue;
+div:hover{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     width: 300px;
+}
+
+div:nth-child(3):hover {
+    background-color: lightblue;
 }
 
 div:nth-child(4):hover {
     background-color: lightgreen;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    width: 300px;
+
 }
 
 div:nth-child(5):hover {
     background-color: orange;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    width: 300px;
+
 }
 
 div:nth-child(6):hover {
     background-color: rgb(129, 33, 33);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    width: 300px;
+
 }
 
 div:nth-child(7):hover {
     background-color: yellow;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    width: 300px;
+    
 }
 
-body div:nth-child(3) h3{
+body div:nth-child(odd){
     font-style: italic;
 }
 
-
-body div:nth-child(5) h3{
+body div:nth-child(5){
     font-size: 1.30em;
-    font-style: italic;
-}
-
-
-body div:nth-child(7) h3{
-    font-style: italic;
 }
 
 
