@@ -1,0 +1,37 @@
+h1, p, ol, li {
+    text-align: center;
+}
+
+/* o exercicio pediu para deixar tudo centralizado menos
+ a lista em si, me incomodou e centralizei tambem*/
+
+ li {
+     background-color: grey;
+     padding: 5px;
+     border: 5px;
+     margin: 5px;
+ }
+ 
+ li:hover {
+     background-color: rgba(128, 128, 128, 0.404);
+ }
+
+ li:active {
+    color: brown;
+ }
+
+ ol, ul {
+     background-color: goldenrod;
+     padding: 5px;
+     border: 5px;
+     margin: 5px;
+     list-style: none;
+     width: 300px;
+ }
+
+ul, ol {
+    display: table;
+    margin: 5px auto;
+}
+
+ 

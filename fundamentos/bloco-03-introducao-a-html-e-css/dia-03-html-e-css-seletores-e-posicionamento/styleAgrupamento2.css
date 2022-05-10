@@ -1,0 +1,38 @@
+div:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+}
+
+div:nth-child(3):hover {
+    background-color: lightblue;
+}
+
+div:nth-child(4):hover {
+    background-color: lightgreen;
+
+}
+
+div:nth-child(5):hover {
+    background-color: orange;
+
+}
+
+div:nth-child(6):hover {
+    background-color: rgb(129, 33, 33);
+
+}
+
+div:nth-child(7):hover {
+    background-color: yellow;
+    
+}
+
+body div:nth-child(odd){
+    font-style: italic;
+}
+
+body div:nth-child(5){
+    font-size: 1.30em;
+}
+
+
