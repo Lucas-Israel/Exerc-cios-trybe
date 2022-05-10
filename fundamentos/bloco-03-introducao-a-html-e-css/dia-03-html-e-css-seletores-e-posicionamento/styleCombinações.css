@@ -29,8 +29,12 @@ em{
     font-weight: bold;
 }
 
-.lista1 li:nth-child(-n+3){
+.lista1 li:nth-child(-n+3) span{
     color: rgb(17, 148, 255);
+}
+
+.lista1 li{
+    color: black;
 }
 
 .java{
