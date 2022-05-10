@@ -1,0 +1,77 @@
+li{
+    font-size: 20px;
+    margin: 5px;
+    width: 50%;
+    padding: 3px;
+}
+ol li{
+    background-color: yellow;
+}
+
+ol li:nth-child(even){
+    background-color: lightgreen;
+}
+
+ol li:nth-child(odd){
+    text-transform: uppercase;
+}
+
+h1, h2, h3{
+    color: red;
+}
+
+h1 em, h2 em, h3 em{
+    font-size: 40px;
+    border: 1px black solid;
+}
+
+em{
+    font-weight: bold;
+}
+
+.lista1 li:nth-child(-n+3){
+    color: rgb(17, 148, 255);
+}
+
+.java{
+    background-color: pink;
+}
+
+a:link, a:visited, a:hover, a:active{
+    color: black;
+}
+
+.lista2 li {
+    background-color: gray;
+    margin: 5px;
+    width: 50%;
+    padding: 3px;
+}
+
+.lista2 li a{
+    color: white;
+}
+
+.lista2 li:nth-child(1) a:hover{
+    color: orange;
+}
+
+.lista2 li:nth-child(2) a:hover{
+    color: lightgreen;
+}
+
+.lista2 li:nth-child(3) a:hover{
+    color: black; 
+}
+
+.lista2 li:nth-child(4) a:hover{
+    color: yellow;
+}
+
+.lista2 li:nth-child(5) a:hover{
+    color: lightgreen;
+}
+
+a:link{
+    text-decoration: none;
+}
