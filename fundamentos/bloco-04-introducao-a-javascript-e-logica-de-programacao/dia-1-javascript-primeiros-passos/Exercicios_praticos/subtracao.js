@@ -1,5 +1,5 @@
-let a = 2;
-let b = 1;
+const a = 2;
+const b = 1;
 
 const subtracao = a - b;
 
