@@ -1,6 +1,6 @@
-const a = 2;
+const a = 5;
 const b = 3;
-message = "";
+let message = "";
 
 if (a > b) {
     message = a;
