@@ -9,10 +9,10 @@
 
 
 //  AND
-// const currentHour = 11;
+// const currentHour = 0;
 // let message = "";
 
-// if (currentHour >= 22){
+// if (currentHour >= 22 && currentHour <= 23.59){
 //     message = "Não deveríamos comer nada, é hora de dormir";
 // }
 // else if (currentHour >= 18 && currentHour < 22){
@@ -26,6 +26,12 @@
 // }
 // else if (currentHour >= 4 && currentHour < 11){
 //     message = "Hmmm, cheiro de café recém passado";
+// }
+// else if(currentHour >= 0 && currentHour < 4){
+//     message = "Não deveríamos comer nada, é hora de dormir";
+// }
+// else {
+//     message = "Não é uma hora valida";
 // }
 
 // console.log(message);
@@ -42,14 +48,14 @@
 //   console.log("Ei, eu não pedi isso!");
 // }
 
-let weekDay = "quarta-feira";
-let message = "";
+// let weekDay = "quarta-feira";
+// let message = "";
 
-if (weekDay === "segunda-feira" || weekDay === "terça-feira" || weekDay === "quarta-feira" || weekDay === "quinta-feira" || weekDay === "sexta-feira") {
-    message = "Oba, mais um dia de aprendizado na Trybe >:D";
-}
+// if (weekDay === "segunda-feira" || weekDay === "terça-feira" || weekDay === "quarta-feira" || weekDay === "quinta-feira" || weekDay === "sexta-feira") {
+//     message = "Oba, mais um dia de aprendizado na Trybe >:D";
+// }
 
-else {
-    message = "FINALMENTE, descanso merecido UwU"; // GZUS, UwU?????
-}
-console.log(message);
+// else {
+//     message = "FINALMENTE, descanso merecido UwU"; // GZUS, UwU?????
+// }
+// console.log(message);
