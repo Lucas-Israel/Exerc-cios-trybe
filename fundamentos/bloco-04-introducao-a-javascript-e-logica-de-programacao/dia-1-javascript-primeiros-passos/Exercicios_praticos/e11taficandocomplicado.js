@@ -1,4 +1,4 @@
-const salario = 5200;
+const salario = 3000;
 const INSS1 = 1556.94;
 const INSS2 = [1556.95, 2594.92]
 const INSS3 = [2594.93, 5189.82]
@@ -30,7 +30,7 @@ if (salario > INSS3[1]) {
     salarioBase = salario - aliquotaINSSMAX;
 }
 else {
-
+    aliquotaINSSMAX = 570.88
 }
 
 
