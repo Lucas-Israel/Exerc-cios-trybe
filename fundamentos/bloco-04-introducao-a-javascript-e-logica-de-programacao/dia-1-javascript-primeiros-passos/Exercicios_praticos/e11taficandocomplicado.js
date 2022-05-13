@@ -10,7 +10,6 @@ let aliquotaINSS = "";
 let aliquotaIR = "";
 
 
-
 if (salario <= INSS1){
     aliquotaINSS = 1.08;
 }
@@ -24,22 +23,22 @@ else {
     aliquotaINSSMAX = 570.88;
 }
 
-console.log("Aliquota INSS: *"+aliquotaINSS)
+const reducaoINSS = salario * aliquotaINSS - salario;
+const salarioBase = salario - reducaoINSS
 
-
-if (salario < IR1){
+if (salarioBase < IR1){
     aliquotaIR = 1;
     parcelaIR = 0;
 }
-else if (salario >= IR2[0] && salario <= IR2[1]){
+else if (salarioBase >= IR2[0] && salarioBase <= IR2[1]){
     aliquotaIR = 1.075; 
     parcelaIR = 142.80;
 }
-else if (salario >= IR3[0] && salario <= IR3[1]){
+else if (salarioBase >= IR3[0] && salarioBase <= IR3[1]){
     aliquotaIR = 1.15;
     parcelaIR = 354.80;
 }
-else if (salario >= IR4[0] && salario <= IR4[1]){
+else if (salarioBase >= IR4[0] && salarioBase <= IR4[1]){
     aliquotaIR = 1.225; 
     parcelaIR = 636.13;
 }
@@ -48,11 +47,11 @@ else {
     parcelaIR = 869.36;
 }
 
-console.log("Aliquota IR: *"+aliquotaIR,"   Parcela de IR R$:" +parcelaIR)
+const salarioIR = salarioBase * aliquotaIR - salarioBase;
+const salarioParc = salarioIR - parcelaIR;
+const salarioLiq = (Math.round((salarioBase - salarioParc)*100)/100);
 
-const reducaoINSS = salario * aliquotaINSS - salario;
-const salarioBase = salario - reducaoINSS
-// const reducaoIR = salario*aliquotaIR-salario;
-
-console.log(Math.round(salarioBase))
-
+console.log("Salario Bruto R$:"+salario)
+console.log("Aliquota INSS:*"+aliquotaINSS);
+console.log("Aliquota IR:*"+aliquotaIR,"   Parcela de IR R$:" +parcelaIR);
+console.log("Salario Liquido R$:"+salarioLiq);
