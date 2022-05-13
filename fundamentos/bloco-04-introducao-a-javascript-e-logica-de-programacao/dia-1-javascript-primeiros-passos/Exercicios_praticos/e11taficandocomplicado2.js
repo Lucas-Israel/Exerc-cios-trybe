@@ -23,7 +23,7 @@ let reducaoINSS = salario * aliquotaINSS - salario;
 let salarioBase = salario - reducaoINSS
 
 
-if (salario > INSS1[2]) {
+if (salario >= INSS1[2]) {
   salarioBase = salario - aliquotaINSSMAX;
 }
 else {
@@ -61,5 +61,6 @@ const salarioLiq = (Math.round((salarioBase - salarioParc)*100)/100);
 console.log("Salario Bruto R$:"+salario);
 console.log("Aliquota INSS:*"+aliquotaINSS);
 console.log("Aliquota INSSMAX R$:"+aliquotaINSSMAX)
-console.log("Aliquota IR:*"+aliquotaIR,"  Parcela de IR R$:" +parcelaIR);
+console.log("Aliquota IR:*"+aliquotaIR);
+console.log("Parcela de IR R$:" +parcelaIR);
 console.log("Salario Liquido R$:"+salarioLiq);
