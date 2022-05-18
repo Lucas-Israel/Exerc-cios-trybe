@@ -28,6 +28,7 @@ function contadorFrutas(){
             igual[i] = 1;
         }
     }
+    console.log(igual[0])
     console.log('Sua cesta possui: '+igual.Melancia+' melancias, '+igual.Abacate+' abacates, '+igual.Uva+' uvas, '+igual.Laranja+' laranjas, '+igual.Jaca+' jacas, '+igual.Pera+' peras, '+igual.Banana+' bananas.')
 }
 
