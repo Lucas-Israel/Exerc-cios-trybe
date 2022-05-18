@@ -1,4 +1,4 @@
-let nome = "arara";
+let nome = "desenvolvimento";
 
 function palindrome(a) {
     let re 
