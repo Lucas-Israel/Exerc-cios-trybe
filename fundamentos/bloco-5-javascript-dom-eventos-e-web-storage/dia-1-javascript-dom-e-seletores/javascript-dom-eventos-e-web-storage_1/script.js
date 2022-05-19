@@ -30,3 +30,23 @@ function corrigeTagH1(){
     textTagH1.innerText = 'Exercício 5.1 - JavaScript';
 }
 corrigeTagH1()
+
+// Exercício 5
+
+function tagPUpper(){
+    let pUpper = document.getElementsByTagName('p');
+    for (let i = 0; i < pUpper.length; i += 1){
+        pUpper[i].innerText = pUpper[i].innerText.toUpperCase();
+    }
+}
+tagPUpper()
+
+// Exercício 6
+
+function tagPNoConsole(){
+    let tagPNoCon = document.getElementsByTagName('p');
+    for (let i = 0; i < tagPNoCon.length; i +=1){
+        console.log(tagPNoCon[i].innerHTML);
+    }
+}
+tagPNoConsole()
