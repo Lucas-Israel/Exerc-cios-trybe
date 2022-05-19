@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p class="burges" id="paragraph">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p class="burges" id="second-paragraph">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.querySelector("#paragraph");
+      paragraph.style.color = "blue";
+      document.querySelector('#page-title').innerText = 'O quinto elemento';
+      document.querySelector('#second-paragraph').innerText = 'Testando o teste v=V-R6_ZGjlYM'
+      document.querySelector('#subtitle').innerText = 'Sombra no sol v=7H0--80KRUM'
+      let testehtml = document.querySelectorAll('.burges');
+      for (let i = 0; i < testehtml.length; i += 1){
+      console.log(document.querySelectorAll('.burges')[i].innerText);
+      }
+      document.querySelectorAll('.burges')[1].style.color = 'grey';
+      document.querySelector('#subtitle').style.color = 'pink';
+    </script>
+  </body>
+</html>
+
+<!-- querySelector para ID, querySelectorAll para classe, ja que ID é unico -->
+<!-- e classe existem varios nela. -->
+
