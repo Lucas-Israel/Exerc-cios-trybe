@@ -61,5 +61,40 @@ for (let i = 1; i <= 3; i += 1){
 let h3Main3 = document.createElement('h3');
 h3Main3.innerHTML = 'Teste';
 mainContent.appendChild(h3Main3);
+};
 
+// Parte 2
+
+// Exercicio 1
+
+h1Title.className = 'title';
+
+// Exercicio 2
+
+let eleh3 = document.getElementsByTagName('h3');
+for (let i = 0; i < 3; i += 1){
+    eleh3[i].className = 'description';
+}
+
+// Exercicio 3
+
+let removendoLeft = document.getElementsByClassName('left-content')[0];
+mainContent.removeChild(removendoLeft);
+
+// Exercicio 4
+
+let movendoRight = document.getElementsByClassName('right-content')[0];
+movendoRight.style.marginRight='auto';
+
+// Exercicio 5
+
+let mudaCorSection = document.getElementsByClassName('center-content')[0];
+mudaCorSection.parentNode.style.backgroundColor = 'green';
+
+// Exercicio 6
+
+let listLength = rightLi.children.length;
+for (let i = listLength - 1; i > listLength - 3; i-= 1) {
+  let child = rightLi.children[i];
+  child.remove();
 }
