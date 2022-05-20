@@ -28,3 +28,15 @@ bisneto.id = 'neto';
 neto.appendChild(bisneto);
 
 console.log(bisneto.parentElement.parentElement.nextElementSibling)
+
+// parte 3
+
+for (let i = pai.childNodes.length - 1; i >=0; i -= 1){
+    let filhoAtual = pai.childNodes[i];
+    if (filhoAtual.id !== 'elementoOndeVoceEsta'){
+        filhoAtual.remove();
+    }
+}
+
+let segEUltFil = document.getElementById('segundoEUltimoFilho');
+segEUltFil.remove();
