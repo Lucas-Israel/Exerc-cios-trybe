@@ -85,3 +85,16 @@ console.log(cls); // ['2019/set', '2019/oct']
 
 `.setitem(chave, valor)` para salvar.
 `.setitem(name, gabriel)`
+
+`.getItem('name')` retorna o valor se encontrar.
+retorna 'gabriel' nesse caso.
+
+`.removeItem(nome da chave)` para deletar
+`.removeItem(name)` exclui a chave junto do valor.
+
+
+
+
+`É muito mais simples utilizar localStorage e sessionStorage do que Cookies, mas o uso de Cookies não é totalmente dispensável.`
+
+`Em regra geral, utilizamos Cookies quando precisamos dos dados no cliente (browser) e no servidor, pois os Cookies são enviados para o servidor a cada requisição. Caso contrário, utilizamos localStorage e sessionStorage`
