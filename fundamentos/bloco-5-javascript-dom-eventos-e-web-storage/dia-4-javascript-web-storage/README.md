@@ -1,0 +1,1 @@
+O Javascript permite que a gente crie, leia e delete cookie através da propriedade 'document.cookie.'
