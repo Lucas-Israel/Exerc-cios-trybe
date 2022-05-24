@@ -62,3 +62,26 @@ o `localStorage` armazena dados no formato chave e valor, sendo os valores sempr
 recuperar o objeto armazenado, mas queremos ele no formato original e não como uma string: função `JSON.parse()`.
 
 const recoveredObject = JSON.parse(localStorage.getItem('myData'));
+
+
+mais exemplos do que pode ser salvo no localStorage ou sessionStorage:
+
+let organization = {
+  name: 'trybe',
+  since: 2019,
+};
+
+// A variável 'storage' pode ser localStorage ou sessionStorage
+let storage = localStorage;
+
+storage.setItem('trybe', JSON.stringify(organization));
+let org = JSON.parse(storage.getItem('trybe'));
+console.log(org); // { name: 'trybe', since: 2019 }
+
+let classes = ['2019/set', '2019/oct'];
+storage.setItem('classes', JSON.stringify(classes));
+let cls = JSON.parse(storage.getItem('classes'));
+console.log(cls); // ['2019/set', '2019/oct']
+
+`.setitem(chave, valor)` para salvar.
+`.setitem(name, gabriel)`
