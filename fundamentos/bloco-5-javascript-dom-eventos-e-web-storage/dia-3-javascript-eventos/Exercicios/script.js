@@ -106,20 +106,21 @@ apertandoBotaoSexta();
 function dayZoomIn() {
   let dias = document.querySelector('#days');
 
-  days.addEventListener('mouseover', function(event) {
+  dias.addEventListener('mouseover', function(event) {
     event.target.style.fontSize = '30px';
     event.target.style.fontWeight = '600';
   })
-}
+};
 
 function dayZoomOut() {
   let dias = document.querySelector('#days');
 
-  days.addEventListener('mouseout', function(event) {
+  dias.addEventListener('mouseout', function(event) {
     event.target.style.fontWeight = '200';
     event.target.style.fontSize = '20px';
   })
-}
+};
+
 dayZoomIn();
 dayZoomOut();
 
@@ -130,4 +131,76 @@ function addTarefa(stg) {
   criar.innerHTML = stg;
   containerTarefas.appendChild(criar);
 }
-addTarefa('Tarefa:');
+addTarefa('Cozinhar');
+
+function legendaColoridaSpan(cor) {
+  let selectTask = document.querySelector('.my-tasks');
+  let Div = document.createElement('div');
+
+  Div.className = 'task';
+  Div.style.backgroundColor = cor;
+  selectTask.appendChild(Div);
+}
+legendaColoridaSpan('green');
+
+function taskSelected() {
+  let taskSel = document.getElementsByClassName('task selected');
+  let task = document.querySelector('.task');
+
+  task.addEventListener('click', function(evento) {
+    if (taskSel.length === 0) {
+      evento.target.className = 'task selected';
+    } else {
+      evento.target.className = 'task';
+    }
+  })
+}
+
+taskSelected()
+
+function Daycolor() {
+  let dia = document.querySelector('#days');
+  let taskSel = document.getElementsByClassName('task selected');
+  let taskDiv = document.querySelector('.task');
+  let taskColor = taskDiv.style.backgroundColor;
+
+  dia.addEventListener('click', function(evento) {
+    let eveTarCor = evento.target.style.color;
+    if (eveTarCor !== taskColor) {
+      let cor = taskSel[0].style.backgroundColor;
+      evento.target.style.color = cor;
+    } else if (eveTarCor === taskColor) {
+      evento.target.style.color = 'rgb(119,119,119)';
+    }
+  })
+};
+Daycolor();
+
+function addNoTare() {
+  let getTasklist = document.querySelector('.task-list');
+  let input = document.querySelector('#task-input');
+  let botao = document.querySelector('#btn-add');
+
+  botao.addEventListener('click', function() {
+    if (input.value.length > 0) {
+      let novaLinha = document.createElement('li');
+      novaLinha.innerText = input.value;
+
+      getTasklist.appendChild(newLi);
+      input.value = '';
+    } else {
+      alert('Error: digite ao menos 1 caractere.');
+    }
+  })
+  input.addEventListener('keyup', function(event) {
+    if (event.key === 'Enter' && input.value.length > 0) {
+      let novaLinha = document.createElement('li');
+      novaLinha.innerText = input.value;
+
+      getTasklist.appendChild(newLi);
+      input.value = '';
+    }
+  })
+}
+
+addNoTare();
