@@ -72,7 +72,6 @@ function apertandoBotaoFeriado() {
     }
   });
 }
-
 apertandoBotaoFeriado();
 
 function sexta(nomeDoBotao){
@@ -84,5 +83,22 @@ function sexta(nomeDoBotao){
   novoBotao.id = novoBotaoID;
   containerDoBotao.appendChild(novoBotao)
 }
-
 sexta('Sexta-feira')
+
+function apertandoBotaoSexta() {
+  let botaoSexta = document.querySelector('#btn-friday');
+  let pegarSexta = document.querySelectorAll('.friday');
+  let corDeFundo = 'rgb(238,238,238)';
+  let corNova = 'white';
+
+  botaoSexta.addEventListener('click', function(){
+    for (let index = 0; index < pegarSexta.length; index+= 1) {
+      if (pegarSexta[index].style.backgroundColor === corNova) {
+        pegarSexta[index].style.backgroundColor = corDeFundo;
+      } else {
+        pegarSexta[index].style.backgroundColor = corNova
+      }
+    }
+  });
+}
+apertandoBotaoSexta();
