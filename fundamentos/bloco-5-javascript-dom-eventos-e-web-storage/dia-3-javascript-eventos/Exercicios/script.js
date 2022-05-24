@@ -102,3 +102,32 @@ function apertandoBotaoSexta() {
   });
 }
 apertandoBotaoSexta();
+
+function dayZoomIn() {
+  let dias = document.querySelector('#days');
+
+  days.addEventListener('mouseover', function(event) {
+    event.target.style.fontSize = '30px';
+    event.target.style.fontWeight = '600';
+  })
+}
+
+function dayZoomOut() {
+  let dias = document.querySelector('#days');
+
+  days.addEventListener('mouseout', function(event) {
+    event.target.style.fontWeight = '200';
+    event.target.style.fontSize = '20px';
+  })
+}
+dayZoomIn();
+dayZoomOut();
+
+function addTarefa(stg) {
+  let criar = document.createElement('span');
+  let containerTarefas = document.querySelector('.my-tasks');
+
+  criar.innerHTML = stg;
+  containerTarefas.appendChild(criar);
+}
+addTarefa('Tarefa:');
