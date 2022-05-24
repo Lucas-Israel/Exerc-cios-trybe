@@ -176,31 +176,32 @@ function Daycolor() {
 };
 Daycolor();
 
-function addNoTare() {
-  let getTasklist = document.querySelector('.task-list');
-  let input = document.querySelector('#task-input');
-  let botao = document.querySelector('#btn-add');
+function addNewTask() {
+  let getInputField = document.querySelector('#task-input');
+  let addInputButton = document.querySelector('#btn-add');
+  let getTaskList = document.querySelector('.task-list');
 
-  botao.addEventListener('click', function() {
-    if (input.value.length > 0) {
-      let novaLinha = document.createElement('li');
-      novaLinha.innerText = input.value;
+  addInputButton.addEventListener('click', function() {
+    if (getInputField.value.length > 0) {
+      let newLi = document.createElement('li');
+      newLi.innerText = getInputField.value;
 
-      getTasklist.appendChild(newLi);
-      input.value = '';
+      getTaskList.appendChild(newLi);
+      getInputField.value = '';
     } else {
-      alert('Error: digite ao menos 1 caractere.');
+      alert('Error: Digite ao menos 1 caractere.');
     }
   })
-  input.addEventListener('keyup', function(event) {
-    if (event.key === 'Enter' && input.value.length > 0) {
-      let novaLinha = document.createElement('li');
-      novaLinha.innerText = input.value;
 
-      getTasklist.appendChild(newLi);
-      input.value = '';
+  getInputField.addEventListener('keyup', function(event) {
+    if (event.key === 'Enter' && getInputField.value.length > 0) {
+      let newLi = document.createElement('li');
+      newLi.innerText = getInputField.value;
+
+      getTaskList.appendChild(newLi);
+      getInputField.value = '';
     }
-  })
-}
+  });
+};
 
-addNoTare();
+addNewTask();
