@@ -98,3 +98,30 @@ retorna 'gabriel' nesse caso.
 `É muito mais simples utilizar localStorage e sessionStorage do que Cookies, mas o uso de Cookies não é totalmente dispensável.`
 
 `Em regra geral, utilizamos Cookies quando precisamos dos dados no cliente (browser) e no servidor, pois os Cookies são enviados para o servidor a cada requisição. Caso contrário, utilizamos localStorage e sessionStorage`
+
+
+
+
+
+--------------------------- Exercicio-------------------------------
+
+
+<select>
+  <option value='red'>Vermelho</option>
+</select>
+
+isso cria um dropdown com o texto.
+
+.selectedOptions = mexe com os valores do dropdown do select e options
+
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement/selectedOptions
+
+usado para criar um dropdown que muda instant algo.
+
+criando uma string para adicionar um valor dinamicamente 
+`${valor}abc`;
+
+exemplo: .fontSize = `${inputFontSize.value}px`;
+
+salvar com `localStorage.setItem('nome', valor)` 
+e colocar pra carregar com `localStorage.getItem('nome do que quer carregar')`
