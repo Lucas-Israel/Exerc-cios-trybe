@@ -48,18 +48,20 @@ window.onload = function(){
     });
 
 
-
+    let conteudo = document.querySelector('#conteudo');
     
     let savedBackGround = localStorage.getItem('5.4-background-color');
     document.body.style.backgroundColor = savedBackGround;
 
     let savedFontSize = localStorage.getItem('5.4-fontsize');
-    let fontSave = document.querySelector('#conteudo');
-    fontSave.style.fontSize = savedFontSize;
+    conteudo.style.fontSize = savedFontSize;
 
     let savedTxt = localStorage.getItem('5.4-font-color');
-    document.body.style.color = savedTxt;
+    conteudo.style.color = savedTxt;
 
     let fonteF = localStorage.getItem('5.4-font-family');
-    document.body.p.style.fontFamily = fonteF;
+    conteudo.style.fontFamily = fonteF;
+
+    let lineH = localStorage.getItem('5.4-espaLin');
+    conteudo.style.lineHeight = lineH;
 }

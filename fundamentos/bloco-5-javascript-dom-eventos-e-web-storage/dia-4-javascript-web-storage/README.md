@@ -125,3 +125,4 @@ exemplo: .fontSize = `${inputFontSize.value}px`;
 
 salvar com `localStorage.setItem('nome', valor)` 
 e colocar pra carregar com `localStorage.getItem('nome do que quer carregar')`
+
