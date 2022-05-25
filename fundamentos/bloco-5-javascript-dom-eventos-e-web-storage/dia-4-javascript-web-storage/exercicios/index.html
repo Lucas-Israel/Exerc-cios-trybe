@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +7,33 @@
     <title>Document</title>
 </head>
 <body>
-    <select>
-        <option value="white">Branco</option>
-        <option value="Purple">Roxo</option>
-    </select>
-    <select id="text-color">
-        <option value="black">Preto</option>
-        <option value="DarkGoldenRod">Dourado</option>
-    </select>
-    <input type="number" name="font-size" id="" min="16">
+    <section>
+        <span>Cor de fundo:</span>
+        <select>
+            <option value="white">Branco</option>
+            <option value="Purple">Roxo</option>
+        </select>
+    </section>
+    <section>
+        <span>Cor da fonte:</span>
+        <select id="text-color">
+            <option value="black">Preto</option>
+            <option value="DarkGoldenRod">Dourado</option>
+        </select>
+    </section>
+    <section id="fonte">
+        <span>Tipo da fonte:</span>
+        <button id="b1" value="Arial">Arial</button>
+        <button id="b2" value="Times New Roman">Times New Roman</button>
+    </section>
+    <section>
+        <span>Tamanho da fonte:</span>
+        <input type="number" name="font-size" id="input1" min="16">
+    </section>
+    <section>
+        <span>Espaço das linhas:</span>
+        <input type="number" name="esp-lin" id="input2" min="18">
+    </section>
 
     <p id="conteudo">Lorem Ipsum
         "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
@@ -24,8 +42,6 @@
         
         Suspendisse laoreet blandit justo, eu vestibulum massa. Nam finibus cursus risus at ultrices. Proin et dui gravida, volutpat nibh id, pellentesque quam. Nulla sagittis justo a turpis feugiat malesuada. Aliquam lobortis, lectus quis ullamcorper mollis, mauris risus condimentum enim, molestie sodales quam felis vel quam. Pellentesque lobortis vitae ligula id mattis. Donec dapibus posuere risus vel porta. In posuere, diam accumsan mollis dapibus, mi nunc euismod felis, et porttitor odio ipsum et ante. Phasellus et orci eget turpis accumsan blandit. Nulla rhoncus vitae dolor eget semper. Suspendisse et aliquam ipsum, a mattis dui. Sed in nisl vel nibh auctor luctus congue a nunc. Integer tincidunt a ipsum a lacinia. Phasellus diam metus, lobortis vel volutpat non, placerat eget massa. Mauris suscipit sapien dignissim lacus commodo, in tempor diam lobortis.
         </p>
-
-
 
     <script src="script.js"></script>
 </body>
