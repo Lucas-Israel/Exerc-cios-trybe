@@ -106,9 +106,9 @@ retorna 'gabriel' nesse caso.
 --------------------------- Exercicio-------------------------------
 
 
-`<select>
-  <option value='red'>Vermelho</option>
-</select>`
+select>
+  option value='red'>Vermelho</option
+</select
 
 isso cria um dropdown com o texto.
 
