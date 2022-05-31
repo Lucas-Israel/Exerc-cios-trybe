@@ -45,11 +45,11 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 - :heavy_check_mark: 5-2: _JavaScript - Trabalhando com itens_
 - :heavy_check_mark: 5-3: _JavaScript - Eventos_
 - :heavy_check_mark: 5-4: _JavaScript - Armazenamento na Web_
-- [] 5-5: _ [Projeto - Gerador de Memes] () _
-- [] 5-6: _ [Projeto - Pixel Art] () _
-- [] 5-7: _ [Projeto - Lista de tarefas] () _
-- [] 5-7: _ [Projeto - Adivinhe a Cor] () _
-- [] 5-7: _ [Projeto - Carta Misteriosa] () _
+- :heavy_check_mark: 5-5: _ [Projeto - Gerador de Memes] () _
+- :heavy_check_mark: 5-6: _ [Projeto - Pixel Art] () _
+- :heavy_check_mark: 5-7: _ [Projeto - Lista de tarefas] () _
+- :heavy_check_mark: 5-7: _ [Projeto - Adivinhe a Cor] () _
+- :heavy_check_mark: 5-7: _ [Projeto - Carta Misteriosa] () _
 
 ##### Bloco 6: HTML e CSS avançados
 
