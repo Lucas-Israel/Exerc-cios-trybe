@@ -1,0 +1,30 @@
+#section1 {
+  border: black solid 1px;
+  padding: 20px;
+  width: fit-content;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+}
+
+#form1 input {
+  margin: 5px;
+}
+
+#form2 , #digitacao , #data , #form-checkbox{
+  margin-top: 10px;
+}
+
+#digitacao {
+  margin: 10px 0 0 0;
+}
+
+textarea {
+  resize: none;
+  margin: 5px 0 0 0;
+}
+
+button {
+  margin-top: 10px;
+}

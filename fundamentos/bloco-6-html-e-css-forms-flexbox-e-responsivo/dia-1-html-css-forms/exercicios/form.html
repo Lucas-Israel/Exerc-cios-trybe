@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section id="section1">
+    <h1>Concurso TrybeTrip!</h1>
+    <div id="div1">
+      <form action="" method="GET" enctype="multipart/form-data">
+        <div action="" id="form1">
+          <label for="" id="label-nome">Nome: </label>
+          <input type="text" id="input-nome" minlength="10" maxlength="50" required oninvalid="this.setCustomValidity('Dados inválidos')"
+          oninput="this.setCustomValidity('')"/><br>
+          <label for="" id="label-senha">Email: </label>
+          <input type="text" id="input-senha" minlength="10" maxlength="50" required oninvalid="this.setCustomValidity('Dados inválidos')"
+          oninput="this.setCustomValidity('')"/>
+        </div>
+        <div action="" id="form2">
+          <labe id="destino-pref">Destino Preferido:</labe><br>
+          <input type="radio" id="inp1" name="opcoes" required>
+          <label for="inp1" id="label-r-opc1">Cidade</label>
+          <input type="radio" id="inp2" name="opcoes" required>
+          <label for="inp2" id="label-r-opc2">Campo</label>
+          <input type="radio" id="inp3" name="opcoes" required>
+          <label for="inp3" id="label-r-opc3">Praia</label>
+          <input type="radio" id="inp4" name="opcoes" required>
+          <label for="inp4" id="label-r-opc4">Montanhas</label>
+        </div>
+        <div action="" id="digitacao">
+          <label for="" id="espaco-resposta">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label><br>
+          <textarea name="" id="areatxt" cols="50" rows="10" id="text-area" maxlength="500" required oninvalid="this.setCustomValidity('Dados inválidos')"
+          oninput="this.setCustomValidity('')"></textarea>
+        </div>
+        <div action="" id="data">
+          <label for="data" id="label-data">Qual a melhor data para realizar sua viagem? </label>
+          <input type="date" name="" id="data" required>
+        </div>
+        <div action="" id="form-checkbox">
+          <input type="checkbox" name="" id="checkbox">
+          <label for="checkbox" id="label-checkbox">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label><br>
+          <input type="checkbox" name="" id="checkbox-legal" required>
+          <label for="checkbox-legal" id="label-checkbox-legal">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+        </div>
+        <button type="submit" id="enviar">Enviar Formulário</button>
+      </form>
+      <button id="limpar">Limpar Formulário</button>
+    </div>
+    <script src="script.js"></script>
+  </section> 
+</body>
+</html>
