@@ -24,14 +24,13 @@ header nav ul li {
 
 .section-aside-main {
   display: flex;
-  justify-content: space-around;
 }
 
 .main-content {
   order: -1;
 }
 
-aside {
+.aside {
   display: flex;
   flex-direction: column;
 }
@@ -64,6 +63,41 @@ h3 {
 }
 
 @media screen and (max-width: 700px) {
+  body {
+    font-size: x-large;
+  }
+
+  .main-content {
+    order: 1;
+  }
+
+  .section-aside-main {
+    flex-direction: column;
+  }
+
+  .asides {
+    justify-content: space-around;
+  }
+
+  .aside-one h2 , .aside-two h2 {
+    text-align: center;
+    margin: 5% 0 0 0;
+  }
+
+  .main-content h1 {
+    text-align: center;
+  }
+
+  .main-content {
+    padding: 0 5% 5%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    font-size: large;
+  }
+
   .main-content {
     order: 1;
   }
@@ -92,10 +126,9 @@ h3 {
   }
 }
 
-@media screen and (max-width: 1000px) {
-  
-}
-
 @media screen and (min-width: 1001px) {
-  
+  .section-aside-main {
+    display: flex;
+    justify-content: space-around;
+  }
 }
