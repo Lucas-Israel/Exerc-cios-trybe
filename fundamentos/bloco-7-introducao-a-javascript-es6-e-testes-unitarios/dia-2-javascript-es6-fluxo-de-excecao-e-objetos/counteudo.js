@@ -158,15 +158,15 @@
 
 // printDayname(0);
 
-const band = {
-  name: 'Blind Guardian',
-  formedIn: 1986,
-  lastAlbum: 'Beyond the Red Mirror',
-};
+// const band = {
+//   name: 'Blind Guardian',
+//   formedIn: 1986,
+//   lastAlbum: 'Beyond the Red Mirror',
+// };
 
-const info = {
-  genre: 'Power Metal',
-  lastAlbum: 'Twilight Orchestra: Legacy of the Dark Lands',
-};
+// const info = {
+//   genre: 'Power Metal',
+//   lastAlbum: 'Twilight Orchestra: Legacy of the Dark Lands',
+// };
 
-console.log(Object.assign(band, info));
+// console.log(Object.assign(band, info));
