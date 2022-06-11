@@ -41,17 +41,30 @@ const professionalBoard = [
 let a;
 
 // Pesquisa
-const searchEmployee = (id, detail) => {
-  if (!detail || !id) {
+const searchEmployee = (ids, detail) => {
+  if (!detail || !ids) {
     throw new Error('erro1');
   }
 
-  if (typeof id !== 'string' || typeof detail !== 'string'){
+  if (typeof ids !== 'string' || typeof detail !== 'string'){
     throw new Error('erro2');
   }
-  return id;
+
+  for (let index = 0; index < professionalBoard.length; index += 1) {
+    const element = professionalBoard[index];
+
+    if (element.id === ids) {
+      if(!element[detail]) {
+        throw new Error('Informação indisponível');
+      }
+      return element[detail];
+    }
+  }
+  throw new Error('ID não identificada');
 };
 
 module.exports = searchEmployee;
 
-// console.log(searchEmployee('a', 'a'));
+// console.log(searchEmployee('5569-4', 'firstName'));
+
+// console.log(professionalBoard[0].firstName);
