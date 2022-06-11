@@ -38,13 +38,15 @@ const professionalBoard = [
   },
 ];
 
+let a;
+
 // Pesquisa
 const searchEmployee = (id, detail) => {
   if (!detail || !id) {
     throw new Error('erro1');
   }
 
-  if (typeof id !== 'number' || typeof detail !== 'string'){
+  if (typeof id !== 'string' || typeof detail !== 'string'){
     throw new Error('erro2');
   }
   return id;
@@ -52,4 +54,4 @@ const searchEmployee = (id, detail) => {
 
 module.exports = searchEmployee;
 
-console.log(searchEmployee(1, 'b'));
+// console.log(searchEmployee('a', 'a'));

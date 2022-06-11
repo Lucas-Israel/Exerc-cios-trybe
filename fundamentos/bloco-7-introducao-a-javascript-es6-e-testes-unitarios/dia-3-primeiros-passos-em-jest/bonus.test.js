@@ -15,7 +15,22 @@ describe('testa a função do exercício bonus do dia 7.3', () => {
   });
 
   it('testa se searchEmployee recebe os parametros do tipo certo', () => {
-    expect(() => searchEmployee('a', 1)).toThrow(Error);
+    expect(() => searchEmployee(2, 1)).toThrow(Error);
     expect(() => searchEmployee(a, b)).toThrow(Error);
+  });
+
+  it('testa se searchEmployee retorna os erros corretos', () => {
+    expect(() => searchEmployee('a')).toThrow('erro1');
+    expect(() => searchEmployee(undefined, 123)).toThrow('erro1');
+    expect(() => searchEmployee()).toThrow('erro1');
+    expect(() => searchEmployee(1, 2)).not.toThrow('erro1');
+    expect(() => searchEmployee(1, 'a')).toThrow('erro2');
+    expect(() => searchEmployee('1', 2)).toThrow('erro2');
+    expect(() => searchEmployee(1, 2)).toThrow('erro2');
+    expect(() => searchEmployee('1', '2')).not.toThrow('erro2');
+  });
+
+  it('testa se searchEmployee recebe dois parametros na sua criação', () => {
+    expect(searchEmployee.length).toBe(2);
   });
 })
