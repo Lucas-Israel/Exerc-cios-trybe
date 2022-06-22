@@ -1,5 +1,6 @@
 const mage = {
   healthPoints: 130,
+  healthPointsMax: 130,
   intelligence: 45,
   mana: 125,
   damage: undefined,
@@ -7,6 +8,7 @@ const mage = {
 
 const warrior = {
   healthPoints: 200,
+  healthPointsMax: 200,
   strength: 30,
   weaponDmg: 2,
   damage: undefined,
@@ -14,6 +16,7 @@ const warrior = {
 
 const dragon = {
   healthPoints: 350,
+  healthPointsMax: 350,
   strength: 50,
   damage: undefined,
 };
@@ -40,15 +43,67 @@ const magMinDmg = mage.intelligence;
 const magMaxDmg = mage.intelligence * 2;
 
 const mageDmg = () => {
-  if (mageObj().manaGasta > mage.mana - 15) return 'Não possui mana suficiente';
+  if ( mage.mana < 15) return 'Não possui mana suficiente';
+  mage.mana -= mageObj().manaGasta;
   return Math.floor(Math.random() * (magMaxDmg - magMinDmg) + magMinDmg)
 }
 
 const mageObj = () => {
   return {
     dano: mageDmg,
-    manaGasta: 0,
+    manaGasta: 15,
   }
 }
 
 // console.log(mageObj().dano());
+
+// Parte II
+// Agora que você já possui a implementação das funções relativas aos três exercícios anteriores, passe-as como parâmetro para outras funções que irão compor um objeto gameActions. O objeto será composto por ações do jogo e cada ação é por denifição uma HOF, pois neste caso, são funções que recebem como parâmetro outra função.
+// Copie o código abaixo e inicie sua implementação:
+
+const warAct = (abc) => {
+  if (warrior.damage === undefined) {
+    warrior.damage = 0;
+    warrior.damage += abc;
+  return dragon.healthPoints -= abc;
+}
+};
+
+const magAct = (abc) => {
+  if (typeof abc === 'string') return abc;
+  if (mage.damage === undefined) {
+    mage.damage = 0;
+    mage.damage += abc;
+    return dragon.healthPoints -= abc;
+  }
+}
+
+const draAct = (abc) => {
+  if (dragon.damage === undefined) {
+    dragon.damage = 0;
+    dragon.damage += abc;
+    return warrior.healthPoints -= abc, mage.healthPoints -= abc;
+  }
+}
+
+const turnResult = () => battleMembers;
+
+const gameActions = {
+  warTurn: warAct,
+  magTurn: magAct,
+  draTurn: draAct,
+  actTurn: turnResult,
+};
+
+gameActions.warTurn(warDmg());
+gameActions.magTurn(mageObj().dano());
+gameActions.draTurn(draDmg());
+console.table(gameActions.actTurn());
+
+
+// 1 - Crie a primeira HOF que compõe o objeto gameActions. Ela será a função que simula o turno do personagem warrior. Esta HOF receberá como parâmetro a função que calcula o dano deferido pelo personagem warrior e atualizará os healthPoints do monstro dragon. Além disto ela também deve atualizar o valor da chave damage do warrior.
+
+// 2 - Crie a segunda HOF que compõe o objeto gameActions. Ela será a função que simula o turno do personagem mage. Esta HOF receberá como parâmetro a função que calcula o dano deferido pelo personagem mage e atualizará os healthPoints do monstro dragon. Além disto ela também deve atualizar o valor das chaves damage e mana do mage.
+
+// 3 - Crie a terceira HOF que compõe o objeto gameActions. Ela será a função que simula o turno do monstro dragon. Esta HOF receberá como parâmetro a função que calcula o dano deferido pelo monstro dragon e atualizará os healthPoints dos personagens mage e warrior. Além disto ela também deve atualizar o valor da chave damage do monstro.
+// 4 - Adicione ao objeto gameActions uma função que retorne o objeto battleMembers atualizado e faça um console.log para visualizar o resultado final do turno.
