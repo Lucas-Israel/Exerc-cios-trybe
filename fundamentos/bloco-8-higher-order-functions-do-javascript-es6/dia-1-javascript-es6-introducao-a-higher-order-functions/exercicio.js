@@ -1,12 +1,30 @@
-const a = (b) => `${b.replace(/ /, '_')}@trybe.com`
+// const a = (b) => `${b.toLowerCase().replace(/ /, '_')}@trybe.com`
 
-const newEmployees = () => {
-  const employees = {
-    id1: a('Pedro Guerra'), // Nome: Pedro Guerra -> Chame sua função passando o nome Pedro Guerra como parâmetro, substituindo as aspas
-    id2: a('Luiza Drumond'), // Nome: Luiza Drumond -> Chame sua função passando o nome Luiza Drumond como parâmetro, substituindo as aspas
-    id3: a('Carla Paiva'), // Nome: Carla Paiva -> Chame sua função passando o nome Carla Paiva como parâmetro, substituindo as aspas
-  }
-  return employees;
-};
+// const newEmployees = () => {
+//   const employees = {
+//     id1: a('Pedro Guerra'),
+//     id2: a('Luiza Drumond'),
+//     id3: a('Carla Paiva'),
+//   }
+//   return employees;
+// };
 
-console.log(newEmployees().id3);
+// console.log(newEmployees().id1);
+
+// e1 /\
+
+const apo = (a) => a;
+
+const check = (a, b) => {
+  if (a === b) return 'Parabéns você ganhou';
+  return 'Tente novamente';
+}
+
+const tesouro = (a) => {
+  let b = Math.floor(Math.random() * 6);
+  return check(a, b);
+}
+
+console.log(tesouro(apo(5)));
+
+// e2 /\
