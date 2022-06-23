@@ -120,6 +120,9 @@ const gameActions = {
 };
 
 gameActions.warTurn(warDmg());
+gameActions.warTurn(warDmg());
+gameActions.warTurn(warDmg());
+gameActions.magTurn(mageObj().dano());
 gameActions.magTurn(mageObj().dano());
 gameActions.draTurn(draDmg());
 console.table(gameActions.actTurn());
