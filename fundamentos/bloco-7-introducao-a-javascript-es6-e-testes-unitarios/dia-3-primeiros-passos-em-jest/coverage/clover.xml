@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1654980669232" clover="3.2.0">
+  <project timestamp="1654980669232" name="All files">
+    <metrics statements="53" coveredstatements="53" conditionals="39" coveredconditionals="38" methods="6" coveredmethods="6" elements="98" coveredelements="97" complexity="0" loc="53" ncloc="53" packages="1" files="6" classes="6"/>
+    <file name="bonus.js" path="/home/lucas/trybe-exercicios/fundamentos/bloco-7-introducao-a-javascript-es6-e-testes-unitarios/dia-3-primeiros-passos-em-jest/bonus.js">
+      <metrics statements="14" coveredstatements="14" conditionals="12" coveredconditionals="12" methods="1" coveredmethods="1"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="44" count="1" type="stmt"/>
+      <line num="45" count="16" type="cond" truecount="4" falsecount="0"/>
+      <line num="46" count="5" type="stmt"/>
+      <line num="49" count="11" type="cond" truecount="4" falsecount="0"/>
+      <line num="50" count="5" type="stmt"/>
+      <line num="53" count="6" type="stmt"/>
+      <line num="54" count="19" type="stmt"/>
+      <line num="56" count="19" type="cond" truecount="2" falsecount="0"/>
+      <line num="57" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="58" count="1" type="stmt"/>
+      <line num="60" count="3" type="stmt"/>
+      <line num="63" count="2" type="stmt"/>
+      <line num="66" count="1" type="stmt"/>
+    </file>
+    <file name="hydrate.js" path="/home/lucas/trybe-exercicios/fundamentos/bloco-7-introducao-a-javascript-es6-e-testes-unitarios/dia-3-primeiros-passos-em-jest/hydrate.js">
+      <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="5" type="stmt"/>
+      <line num="3" count="5" type="stmt"/>
+      <line num="4" count="5" type="stmt"/>
+      <line num="5" count="5" type="stmt"/>
+      <line num="6" count="12" type="cond" truecount="3" falsecount="1"/>
+      <line num="7" count="12" type="stmt"/>
+      <line num="10" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="13" count="4" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+    </file>
+    <file name="myFizzBuzz.js" path="/home/lucas/trybe-exercicios/fundamentos/bloco-7-introducao-a-javascript-es6-e-testes-unitarios/dia-3-primeiros-passos-em-jest/myFizzBuzz.js">
+      <metrics statements="7" coveredstatements="7" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="3" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="4" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+    </file>
+    <file name="myRemove.js" path="/home/lucas/trybe-exercicios/fundamentos/bloco-7-introducao-a-javascript-es6-e-testes-unitarios/dia-3-primeiros-passos-em-jest/myRemove.js">
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="3" count="11" type="cond" truecount="2" falsecount="0"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="7" count="3" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+    </file>
+    <file name="sum.js" path="/home/lucas/trybe-exercicios/fundamentos/bloco-7-introducao-a-javascript-es6-e-testes-unitarios/dia-3-primeiros-passos-em-jest/sum.js">
+      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="5" type="cond" truecount="4" falsecount="0"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="5" count="3" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+    </file>
+    <file name="techList.js" path="/home/lucas/trybe-exercicios/fundamentos/bloco-7-introducao-a-javascript-es6-e-testes-unitarios/dia-3-primeiros-passos-em-jest/techList.js">
+      <metrics statements="10" coveredstatements="10" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="2" type="stmt"/>
+      <line num="3" count="2" type="cond" truecount="5" falsecount="0"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="5" type="stmt"/>
+      <line num="9" count="5" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
