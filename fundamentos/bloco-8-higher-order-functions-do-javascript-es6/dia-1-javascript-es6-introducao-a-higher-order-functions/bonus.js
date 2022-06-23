@@ -3,6 +3,7 @@ const mage = {
   healthPointsMax: 130,
   intelligence: 45,
   mana: 125,
+  hits: undefined,
   damage: undefined,
 };
 
@@ -11,6 +12,7 @@ const warrior = {
   healthPointsMax: 200,
   strength: 30,
   weaponDmg: 2,
+  hits: undefined,
   damage: undefined,
 };
 
@@ -18,6 +20,7 @@ const dragon = {
   healthPoints: 350,
   healthPointsMax: 350,
   strength: 50,
+  hits: undefined,
   damage: undefined,
 };
 
@@ -62,28 +65,49 @@ const mageObj = () => {
 // Copie o código abaixo e inicie sua implementação:
 
 const warAct = (abc) => {
+  if (warrior.hits === undefined) {
+    warrior.hits = 0;
+    warrior.hits += 1;
+  }
   if (warrior.damage === undefined) {
     warrior.damage = 0;
     warrior.damage += abc;
+    return dragon.healthPoints -= abc;
+  }
+  warrior.hits += 1;
+  warrior.damage += abc;
   return dragon.healthPoints -= abc;
-}
 };
 
 const magAct = (abc) => {
-  if (typeof abc === 'string') return abc;
+  if (typeof abc === 'string') return console.log(abc);
+  if (mage.hits === undefined) {
+    mage.hits = 0;
+    mage.hits += 1;
+  }
   if (mage.damage === undefined) {
     mage.damage = 0;
     mage.damage += abc;
     return dragon.healthPoints -= abc;
   }
+  mage.hits += 1; 
+  mage.damage += abc;
+  return dragon.healthPoints -= abc;
 }
 
 const draAct = (abc) => {
+  if (dragon.hits === undefined) {
+    dragon.hits = 0;
+    dragon.hits += 2;
+  }
   if (dragon.damage === undefined) {
     dragon.damage = 0;
-    dragon.damage += abc;
+    dragon.damage += abc * 2;
     return warrior.healthPoints -= abc, mage.healthPoints -= abc;
   }
+  dragon.hits += 2;
+  dragon.damage += abc * 2;
+  return warrior.healthPoints -= abc, mage.healthPoints -= abc;
 }
 
 const turnResult = () => battleMembers;
