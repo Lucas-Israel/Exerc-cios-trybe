@@ -1,4 +1,4 @@
-export const books = [
+module.exports = books = [
   {
     id: 1,
     name: 'As Crônicas de Gelo e Fogo',
@@ -60,4 +60,3 @@ export const books = [
     releaseYear: 1928,
   },
 ];
-

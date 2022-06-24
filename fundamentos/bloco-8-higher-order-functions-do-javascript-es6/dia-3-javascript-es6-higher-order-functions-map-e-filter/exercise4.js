@@ -1,4 +1,4 @@
-import {books} from './books.mjs';
+const books = require ('./books.js');
 
 // 4 - Crie um array ordenado pelos livros com mais de 60 anos de publicação e ordene-o pelo livro mais velho.
 // Dica: use as funções filter e sort
