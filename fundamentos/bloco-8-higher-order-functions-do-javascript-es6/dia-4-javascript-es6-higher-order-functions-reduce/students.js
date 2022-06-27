@@ -1,0 +1,1 @@
+module.exports = students = ['Pedro Henrique', 'Miguel', 'Maria Clara'];
