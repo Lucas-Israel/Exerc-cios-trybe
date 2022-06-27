@@ -5,6 +5,6 @@ const books = require ('./books.js');
 
 const bcd = /(.\. ){3}/g;
 
-const abc = (a) => a.filter(a => a.author.name.match(bcd)).map(a => a.author.name)
+const abc = (a) => a.find(a => a.author.name.match(bcd))
 
 console.log(abc(books));
