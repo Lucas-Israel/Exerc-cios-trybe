@@ -1,4 +1,12 @@
-let {randomNum} = require('./service');
+let {
+  randomNum,
+  paraMaiuscula,
+  primeiraLetra,
+  concatena,
+  fetchDog,
+} = require('./service');
+
+afterEach(() => jest.clearAllMocks());
 
 describe('Testando a função randomNum', () => {
   it('é uma função?', () => {
@@ -63,3 +71,52 @@ describe('does he look like a b...?', () => {
     expect(randomNum).toHaveBeenCalledWith(5)
   });
 })
+
+describe('Faça o mock das funções para com os seguintes casos:', () => {
+  it('Desenvolva uma nova implementação para a função "paraMaiuscula": agora ela deve retornar a string em caixa baixa.', () => {
+    const service = { paraMaiuscula };
+    let paraMaiuscul = jest.spyOn(service, "paraMaiuscula").mockImplementation(a => a.toLowerCase());
+    expect(paraMaiuscul('ABC')).toBe('abc');
+    service.paraMaiuscula.mockRestore();
+    expect(service.paraMaiuscula('abc')).toBe('ABC');
+  });
+  it('Defina, para a função "primeiraLetra", uma nova implementação: ela deve retornar a última letra de uma string.', () => {
+    const service = { primeiraLetra };
+    jest.spyOn(service, "primeiraLetra").mockImplementationOnce((a) => a[a.length - 1])
+    expect(service.primeiraLetra('abc')).toBe('c');
+    service.primeiraLetra.mockRestore();
+    expect(service.primeiraLetra('abc')).toBe('a');
+  });
+  it('Implemente, na terceira função: ela deve receber três strings e concatená-las.', () => {
+    const service = { concatena };
+    jest.spyOn(service, "concatena").mockImplementationOnce((a, b, c) => a + b + c)
+    expect(service.concatena('abc', 'def', 'ghi')).toBe('abcdefghi')
+    service.concatena.mockRestore();
+    expect(service.concatena('abc', 'def', 'ghi')).toBe('abcdef')
+  });
+});
+
+describe('Crie uma função que faça requisição para a api dog pictures. Mocke a requisição e crie dois testes', () => {
+  afterEach(() => jest.clearAllMocks());
+  fetchDog = jest.fn();
+
+  it('O primeiro deve interpretar que a requisição se resolveu e teve como valor "request success".', async () => {
+    fetchDog.mockResolvedValue("request success");
+    
+    fetchDog();
+
+    expect(fetchDog).toHaveBeenCalledTimes(1);
+    await expect(fetchDog()).resolves.toBe("request success");
+    expect(fetchDog).toHaveBeenCalledTimes(2);
+  });
+
+  it('O segundo deve interpretar que a requisição falhou e ter como valor "request failed".', async () => {
+    fetchDog.mockResolvedValue("request failed");
+    
+    fetchDog();
+
+    expect(fetchDog).toHaveBeenCalledTimes(1);
+    await expect(fetchDog()).resolves.toBe("request failed");
+    expect(fetchDog).toHaveBeenCalledTimes(2);
+  });
+});
