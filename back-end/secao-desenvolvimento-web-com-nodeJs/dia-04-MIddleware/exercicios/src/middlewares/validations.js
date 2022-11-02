@@ -7,8 +7,8 @@ const nameValidation = (req, res, next) => {
 
 const priceValidation = (req, res, next) => {
   const { price } = req.body;
-  if(price.length = 0) return res.status(400).send({ message: "O campo price é obrigatório" });
-  if(+price < 0) return res.status(400).send({ message: "O campo price deve ser um número maior ou igual a zero" })
+  if(!price.toString() || price.length === 0) return res.status(400).send({ message: "O campo price é obrigatório" });
+  if(typeof price !== 'number' || +price < 0) return res.status(400).send({ message: "O campo price deve ser um número maior ou igual a zero" })
   next();
 };
 
@@ -31,7 +31,7 @@ const createdAtValidation = (req, res, next) => {
   const { description: {createdAt} } = req.body;
 
   const regex = /^\d{2}\/\d{2}\/\d{4}$/;
-
+  if (typeof createdAt !== 'string') return res.status(400).send({ message: "O campo createdAt deve ser uma string" })
   if (createdAt.match(regex) === null) return res.status(400).send({ message: "O campo createdAt deve ter o formato \'dd/mm/aaaa\'"});
   next();
 };
@@ -53,6 +53,13 @@ const dificultyValidation = (req, res, next) => {
   next();
 };
 
+const signupValidation = (req, res, next) => {
+  const body = req.body;
+  const requiredProperties = ['email', 'password', 'firstName', 'phone'];
+
+  if (!requiredProperties.every((property) => property in body)) return res.status(401).send({ message: "Campos ausentes!" })
+  next();
+};
 
 module.exports = {
   nameValidation,
@@ -61,4 +68,5 @@ module.exports = {
   createdAtValidation,
   ratingValidation,
   dificultyValidation,
+  signupValidation,
 }
