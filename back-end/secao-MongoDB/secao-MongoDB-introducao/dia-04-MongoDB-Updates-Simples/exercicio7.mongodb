@@ -1,0 +1,10 @@
+use('class');
+
+// db.movies.update(
+//   {title: 'Batman'},
+//   {$rename: {budget: 'estimatedBudget'}}
+// )
+
+db.movies.find()
+
+// Exercício 7: Renomeie o campo budget para estimatedBudget do filme Batman.
