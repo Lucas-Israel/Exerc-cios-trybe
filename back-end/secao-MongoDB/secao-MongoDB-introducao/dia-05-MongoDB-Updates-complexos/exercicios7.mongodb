@@ -1,0 +1,18 @@
+use('cinema');
+
+db.movies.updateMany(
+  {title: {
+    $in: ['Home Alone', 'Batman']
+  }},
+  {
+    $push: {
+      category: "90's"
+    }
+  }
+)
+
+db.movies.find()
+
+
+
+// Adicione a categoria "90's" aos filmes Batman e Home Alone.
