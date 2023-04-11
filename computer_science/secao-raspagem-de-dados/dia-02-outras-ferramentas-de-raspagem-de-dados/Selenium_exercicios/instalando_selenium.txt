@@ -1,0 +1,80 @@
+Criar um venv e ativar ele.
+
+python3 -m venv .venv
+source .venv/bin/activate
+
+criar um .gitignore pra colocar a pasta .venv
+
+
+Instalação utilizando o Docker:
+
+  A imagem que utilizaremos do Selenium é a selenium/standalone-firefox:
+
+  docker pull selenium/standalone-firefox:106.0
+
+Iniciando a imagem Docker:
+
+  Para efetivamente começar a utilizar o Selenium, precisaremos inicializar a 
+  imagem Docker que baixamos anteriormente. 
+  
+  Na documentação da imagem recomendada anteriormente às pessoas que utilizam 
+  Linux ou MacOS sem o novo processador M1, especificamente na seção 
+  Using your browser (no VNC client is needed)
+  [https://github.com/SeleniumHQ/docker-selenium#using-your-browser-no-vnc-client-is-needed],
+  que permite a inspeção visual da atividade do container através do navegador, 
+  encontramos os comandos que utilizaremos a seguir.
+
+  docker run -d -p 4444:4444 -p 7900:7900 --shm-size 2g --name firefox selenium/standalone-firefox:106.0
+
+As flags utilizadas acima têm as seguintes finalidades:
+
+  -d serve para rodar o container em segundo plano
+  -p vincula uma porta do SO a outra porta dentro do container
+  --shm-size aumenta o limite de quantidade de memória compartilhada com o container
+  --name define qual vai ser o nome do container
+  --platform (somente se utilizado) diz ao docker qual a plataforma deve ser usada
+
+Acessando o navegador Firefox na porta 7900 [http://localhost:7900/], 
+poderemos conferir se o container está rodando corretamente. 
+Conforme a documentação, será necessário apenas utilizar a 
+senha secret para ter acesso ao container.
+
+
+Atenção: Caso aconteça de o container travar, basta que você o reinicie, com o comando:
+
+  docker restart firefox
+
+Instalação local
+  Para fazer a instalação do Selenium diretamente em sua máquina, basta executar o comando a seguir em seu terminal:
+
+  pip3 install selenium
+
+
+Como dito anteriormente, para utilizar a ferramenta é necessário também instalar o 
+driver do browser que utilizaremos. 
+Nesta parte da documentação [https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/] 
+você encontra os links para os drivers dos principais browsers. 
+Para este exemplo utilizaremos o Mozilla Firefox (especificamente na versão 106.0), 
+que já vem instalado na maioria das distribuições Linux, 
+mas a utilização de outros navegadores, como o Chrome, é bem similar.
+
+  Após escolher o browser que será utilizado, clique em Downloads, 
+  e depois do redirecionamento para a página do github com as opções 
+  do geckodriver, clique na versão compatível com o sistema operacional 
+  instalado em seu computador.
+
+
+
+Nas distros Linux e no MacOS, o próximo passo é extrair o arquivo baixado 
+e movê-lo para o diretório ‘/usr/bin’. 
+Para isso, abra no terminal o diretório onde está o arquivo recém baixado e 
+utilize o comando:
+
+  sudo mv geckodriver /usr/bin
+
+Caso você esteja em um ambiente virtual, o diretório bin do ambiente é adicionado ao path automaticamente, então você pode mover o binário para lá:
+
+  mv geckodriver .venv/bin/
+
+Além disso, você pode simplesmente copiar e colar ou até mesmo arrastar 
+e soltar o arquivo geckodriver dentro do diretório /bin em seu ambiente virtual.

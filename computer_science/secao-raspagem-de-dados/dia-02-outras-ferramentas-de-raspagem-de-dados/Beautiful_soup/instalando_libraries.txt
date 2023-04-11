@@ -1,0 +1,3 @@
+Lembre-se de estar em um ambiente virtual antes de fazer as instalações de bibliotecas.
+
+  pip3 install beautifulsoup4==4.11.1 requests==2.27.1
