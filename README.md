@@ -1,260 +1,272 @@
 ## Trybe
 
+Este repositório contém todas as atividades de aprendizagem desenvolvidas enquanto estudava na [Trybe](https://www.betrybe.com/)
 
-# HEAVY WIP!!!
+O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução de desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias avançadas e habilidades comportamentais.
 
+# Fundamentos do Desenvolvimento Web
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por [Lucas Israel](LinkDoSeuLinkedinAqui) enquanto estudava na [Trybe](https://www.betrybe.com/)
+### [Bloco 1: Unix & Bash]
 
-"A Trybe é uma escola do futuro para quem quer melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando consegue um bom emprego."
+- [x] 1-3: _Unix & Bash - Parte 1_
+- [x] 1-4: _Unix & Bash - Parte 2_
 
-O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a introdução de desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias avançadas e habilidades comportamentais.
+### [Bloco 2: Git, GitHub e Internet](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/fundamentos/bloco-02-git-github-e-internet)
 
-## Fundamentos do Desenvolvimento Web :heavy_check_mark:
+- [x] 2-1: _Git & GitHub - O que é e para que serve_
+- [x] 2-2: _Git & GitHub - Entendendo os comandos_
+- [x] 2-3: _Internet - Entendendo como ela funciona_
 
-##### Bloco 1: Introdução - Unix e Shell
+### [Bloco 3: Introdução à HTML e CSS](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/fundamentos/bloco-03-introducao-a-html-e-css)
 
-- :heavy_check_mark: 1-3: _Unix e Shell- Parte 1_
-- :heavy_check_mark: 1-4: _Unix e Shell- Parte 2_
+- [x] 3-1: _HTML & CSS - Estruturas de página_
+- [x] 3-2: _HTML & CSS - Primeiros passos em CSS_
+- [x] 3-3: _HTML & CSS - Seletores e posicionamento_
+- [x] 3-4: _HTML Semântico_
+- [x] 3-5: _[Projeto - Lessons Learned]_
 
-##### Bloco 2: Git e GitHub
+### [Bloco 4: Introdução à JavaScript e Lógica de Programação](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/fundamentos/bloco-04-introducao-a-javascript-e-logica-de-programacao)
 
-- :heavy_check_mark: 2-1: _O que é e para que serve? _
-- :heavy_check_mark: 2-2: _Compreendendo os Comandos_
-- :heavy_check_mark: 2-3: _Internet - Entendendo como funciona_
+- [x] 4-1: _JavaScript - Primeiros passos_
+- [x] 4-2: _JavaScript - Array e loop For_
+- [x] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
+- [x] 4-4: _JavaScript - Objetos e funções_
+- [x] 4-5: _[Projeto - Playground Functions]_
 
-##### Bloco 3: Introdução - HTML e CSS
+### [Bloco 5: JavaScript: DOM, Eventos e Web Storage](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/fundamentos/bloco-5-javascript-dom-eventos-e-web-storage)
 
-- :heavy_check_mark: 3-1: _HTML e CSS - Estruturas de página_
-- :heavy_check_mark: 3-2: _HTML e CSS - Introdução ao CSS_
-- :heavy_check_mark: 3-3: _HTML e CSS - Seletores e posicionamento_
-- :heavy_check_mark: 3-4: _HTML semântico_
-- :heavy_check_mark: 3-5: _ [Projeto - HTML e CSS] () _
+- [x] 5-1: _JavaScript - DOM e seletores_
+- [x] 5-2: _JavaScript - Trabalhando com elementos_
+- [x] 5-3: _JavaScript - Eventos_
+- [x] 5-4: _JavaScript - Web Storage_
+- [x] 5-5: _Fundamentos - JavaScript - Projetos_
+- [x] 5-5: _[Projeto - Arte com Pixels]_
+- [x] 5-6: _[(Bônus) Projeto - Lista de Tarefas]_
+- [x] 5-7: _[(Bônus) Projeto - Carta Misteriosa]_
+- [x] 5-7: _[(Bônus) Projeto - Meme Generator]_
+- [x] 5-7: _[(Bônus) Projeto - Adivinhe a Cor]_
 
-##### Bloco 4: Introdução - JavaScript
+### [Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/fundamentos/bloco-6-html-e-css-forms-flexbox-e-responsivo)
 
-- :heavy_check_mark: 4-1: _JavaScript - Introdução_
-- :heavy_check_mark: 4-2: _JavaScript - Array e Loop For_
-- :heavy_check_mark: 4-3: _JavaScript - Lógica de Programação e Algoritmos_
-- :heavy_check_mark: 4-4: _JavaScript - Objetos e Recursos_
-- :heavy_check_mark: 4-5: _ [Projeto - Funções do Playground] () _
+- [x] 6-1: _HTML & CSS - Forms_
+- [x] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
+- [x] 6-3: _Introdução - CSS Flexbox_
+- [x] 6-3: _CSS Flexbox - Parte 1_
+- [x] 6-4: _CSS Flexbox - Parte 2_
+- [x] 6-5: _CSS Responsivo - Mobile First_
+- [x] 6-6: _[Projeto - Trybewarts]_
 
-##### Bloco 5: Introdução - JavaScript - Projetos
+### [Bloco 7: Introdução à JavaScript ES6 e Testes Unitários](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/fundamentos/bloco-7-introducao-a-javascript-es6-e-testes-unitarios)
 
-- :heavy_check_mark: 5-1: _JavaScript - DOM e seletores_
-- :heavy_check_mark: 5-2: _JavaScript - Trabalhando com itens_
-- :heavy_check_mark: 5-3: _JavaScript - Eventos_
-- :heavy_check_mark: 5-4: _JavaScript - Armazenamento na Web_
-- :heavy_check_mark: 5-5: _ [Projeto - Gerador de Memes] () _
-- :heavy_check_mark: 5-6: _ [Projeto - Pixel Art] () _
-- :heavy_check_mark: 5-7: _ [Projeto - Lista de tarefas] () _
-- :heavy_check_mark: 5-7: _ [Projeto - Adivinhe a Cor] () _
-- :heavy_check_mark: 5-7: _ [Projeto - Carta Misteriosa] () _
+- [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
+- [x] 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_
+- [x] 7-3: _Primeiros passos em Jest_
+- [x] 7-4: _[Projeto - JavaScript Testes Unitários]_
 
-##### Bloco 6: HTML e CSS avançados
+### [Bloco 8: Higher Order Functions do JavaScript ES6](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/fundamentos/bloco-8-higher-order-functions-do-javascript-es6)
 
-- :heavy_check_mark: 6-1: _HTML e CSS - Formulários_
-- :heavy_check_mark: 6-2: _Bibliotecas Javascript e Estruturas CSS_
-- :heavy_check_mark: 6-3: _CSS Flexbox - Parte 1_
-- :heavy_check_mark: 6-4: _CSS Flexbox - Parte 2_
-- :heavy_check_mark: 6-5: _CSS responsivo - Mobile First_
-- :heavy_check_mark: 6-6: _ [Projeto - página inicial do Facebook] () _
+- [x] 8-1: _JavaScript ES6 - Introdução à Higher Order Functions_
+- [x] 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+- [x] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
+- [x] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
+- [x] 8-5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
+- [x] 8-6: _[Projeto - Zoo functions]_
 
-##### Bloco 7: JavaScript ES6 e testes de unidade
+# Desenvolvimento Front-end
 
-- :heavy_check_mark: 7-1: _JavaScript ES6 - let, const, funções de seta e literais de modelo_
-- :heavy_check_mark: 7-2: _JavaScript ES6 - Objetos_
-- :heavy_check_mark: 7-3: _Testes Unity em JavaScript_
-- :heavy_check_mark: 7-4: _ [Projeto - Testes de Unidade JavaScript] () _
+### [Bloco 9: JavaScript e Testes Assíncronos](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/front-end/bloco-9-javascript-e-testes-assincronos)
 
-##### Bloco 8: JavaScript ES6
+- [x] 9-1: _JavaScript Assíncrono e Callbacks_
+- [x] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
+- [x] 9-3: _Jest - Testes Assíncronos_
+- [x] 9-4: _[Projeto - Carrinho de Compras]_
 
-- :heavy_check_mark: 8-1: _JavaScript ES6 - Funções de ordem superior - forEach, find, some, every, sort_
-- :heavy_check_mark: 8-2: _JavaScript ES6 - Funções de ordem superior - mapa e filtro_
-- :heavy_check_mark: 8-3: _JavaScript ES6 - Funções de ordem superior - reduce_
-- :heavy_check_mark: 8-4: _JavaScript ES6 - operador de propagação, parâmetro de descanso, desestruturação e mais_
-- :heavy_check_mark: 8-5: _ [Projeto - Funções do zoológico] () _
+### [Bloco 10: Introdução à React](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/front-end/bloco-10-introducao-a-react)
 
-##### Bloco 9: assincronia e retornos de chamada
+- [x] 10-1: _'Hello, world!' no React!_
+- [x] 10-2: _Componentes React_
+- [x] 10-3: _[Projeto - Sistema Solar]_
 
-- :heavy_check_mark: 9-1: _JavaScript assíncrono e retornos de chamada_
-- :heavy_check_mark: 9-2: _Promessas JavaScript_
-- :heavy_check_mark: 9-3: _ [Projeto - Carrinho de Compras] () _
+### [Bloco 11: Componentes com Estado, Eventos e Formulários com React](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/front-end/bloco-11-componentes-com-estado-eventos-e-formularios-com-react)
 
-##### Bloco 10: Brincadeira
+- [x] 11-1: _Componentes com estado e eventos_
+- [x] 11-2: _Formulários no React_
+- [x] 11-3: _[Projeto - Tryunfo]_
 
-- :heavy_check_mark: 10-1: _Primeiros passos na brincadeira_
-- :heavy_check_mark: 10-2: _Jest - Testes Assíncronos_
-- :heavy_check_mark: 10-3: _Jest - Simulando Comportamentos_
-- :heavy_check_mark: 10-4: _ [Projeto - Montagem e Simulação de Brincadeiras] () _
+### [Bloco 12: Ciclo de Vida de Componentes e React Router](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/front-end/bloco-12-ciclo-de-vida-de-componentes-e-react-router)
 
-## Desenvolvimento front-end :hourglass_flowing_sand:
+- [x] 12-1: _Ciclo de vida de componentes_
+- [x] 12-2: _React Router_
+- [x] 12-3: _[Projeto - TrybeTunes]_
 
-##### Bloco 11: Introdução - React
+### Bloco 13: Metodologias Ágeis
 
-- :heavy_check_mark: 11-1: _'Olá, mundo!' não reaja! _
-- :heavy_check_mark: 11-2: _Componentes do React_
-- :heavy_check_mark: 11-3: _ [Projeto - Biblioteca de Cartões de Filme] () _
+- [x] 13-1: _Metodologias Ágeis_
+- [x] 13-2: _[Projeto - Frontend Online Store]_
 
-##### Bloco 12: React
+### [Bloco 14: Testes automatizados com React Testing Library](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/front-end/bloco-14-testes-automatizados-com-react-testing-library)
 
-- :heavy_check_mark: 12-1: _Componentes com status_
-- :heavy_check_mark: 12-2: _React Events and Forms_
-- :heavy_check_mark: 12-3: _ [Projeto - Biblioteca de cartões de filme com estado] () _
+- [x] 14-1: _RTL - Primeiros passos_
+- [x] 14-2: _RTL - Mocks e Inputs_
+- [x] 14-3: _Testando React Router_
+- [x] 14-4: _[Projeto - Testes em React]_
 
-##### Bloco 13: React
+### [Bloco 15: Gerenciamento de estado com Redux](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/front-end/bloco-15-gerenciamento-de-estado-com-redux)
 
-- :heavy_check_mark: 13-1: _Melhorando a reutilização de componentes: props.children e PropTypes_
-- :heavy_check_mark: 13-2: _React Component Lifecycle_
-- :heavy_check_mark: 13-3: _React Router_
-- :heavy_check_mark: 13-4: _ [Projeto - Biblioteca de Cartões de Filme CRUD] () _
+- [x] 15-1: _Introdução ao Redux - O estado global da aplicação_
+- [x] 15-2: _Usando o Redux no React_
+- [x] 15-3: _Usando o Redux no React - Prática_
+- [x] 15-4: _Usando o Redux no React - Actions Assíncronas_
+- [x] 15-5: _Testes em React-Redux_
+- [x] 15-6: _[Projeto - Trybe Wallet]_
 
-##### Bloco 14: Metodologias ágeis
+### Bloco 16: Projeto Jogo de Trivia
 
-- :heavy_check_mark: 14-1: _Metodologias ágeis_
-- :heavy_check_mark: 14-2: _ [Projeto - Loja Online Frontend] () _
+- [x] 16-1: _[Projeto - Jogo de Trivia]_
 
-##### Bloco 15: Testes de React
+### Bloco 17: Context API e React Hooks
 
-- :heavy_check_mark: 15-1: _Testando React com React Testing Library_
-- :heavy_check_mark: 15-2: _Testando o React com a Biblioteca de Testes do React - Parte 2_
-- :heavy_check_mark: 15-3: _ [Projeto - Testes de reação] () _
+- [x] 17-1: _Context API do React_
+- [x] 17-2: _React Hooks - useState e useContext_
+- [x] 17-3: _React Hooks - useEffect e Hooks customizados_
+- [x] 17-4: _[Projeto - StarWars Planet Search]_
 
-##### Bloco 16: Introdução ao Redux
+### Bloco 18: Projeto App de Receitas
 
-- :heavy_check_mark: 16-1: _Introdução ao Redux_
-- :heavy_check_mark: 16-2: _React com Redux - Parte 1_
-- :heavy_check_mark: 16-3: _React com Redux - Praticar_
-- :heavy_check_mark: 16-4: _React com Redux - Parte 2_
-- :heavy_check_mark: 16-5: _Testes síncronos com React-Redux_
-- :heavy_check_mark: 16-6: _ [Projeto - Tabela com filtros de dados] () _
+- [x] 18-1: _[Projeto - App de Receitas]_
 
-##### Bloco 17: Projeto React
+# Desenvolvimento Back-end
 
-- :heavy_check_mark: 17-1: _ [Projeto - Jogo de Trivia] () _
+### [Bloco 19: Docker: Utilizando Containers](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/back-end/secao-utilizandoContainers-docker)
 
-##### Bloco 18: API React & Context
+- [x] 19-1: _Utilizando Containers - Docker_
+- [x] 19-2: _Manipulando Imagens no Docker_
+- [x] 19-3: _Orquestrando Containers com Docker Compose_
+- [x] 19-4: _[Projeto - Docker Todo-List]_
 
-- :heavy_check_mark: 18-1: _React API Context_
-- :heavy_check_mark: 18-2: _React Hooks - useState e useContext_
-- :heavy_check_mark: 18-3: _React Hooks - useEffect e Custom Hooks_
-- :heavy_check_mark: 18-4: _ [Projeto - StarWars Datatable com API de contexto e ganchos] () _
+### Bloco 20: Introdução à SQL
 
-##### Bloco 19: Projeto Final Front-end
+- [x] 20-1: _Banco de dados SQL_
+- [x] 20-2: _Encontrando dados em um banco de dados_
+- [x] 20-3: _Filtrando dados de forma específica_
+- [x] 20-4: _Manipulando tabelas_
+- [x] 20-5: _[Projeto - All For One]_
 
-- :heavy_check_mark: 19-1: _ [Projeto - Aplicativo de Receita] () _
+### Bloco 21: Funções SQL, JOINs e Normalização
 
-## Desenvolvimento de back-end :hourglass_flowing_sand:
+- [x] 21-1: _Funções mais usadas no SQL_
+- [x] 21-2: _Descomplicando JOINs_
+- [x] 21-3: _Transformando ideias em um modelo de banco de dados_
+- [x] 21-4: _[Projeto - One For All]_
 
-##### Bloco 20: Introdução - Bancos de dados relacionais
+### [Bloco 22: Introdução ao desenvolvimento Web com Node.js](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/back-end/secao-desenvolvimento-web-com-nodeJs)
 
-- :heavy_check_mark: 20-1: _Banco de Dados SQL_
-- :heavy_check_mark: 20-2: _Encontrando dados em um banco de dados_
-- :heavy_check_mark: 20-3: _Falando dados especificamente_
-- :heavy_check_mark: 20-4: _Manipulação de tabelas_
-- :heavy_check_mark: 20-5: _ [Projeto - Todos Por Um] () _
+- [x] 22-1: _Node.js - Runtime Assíncrono_
+- [x] 22-2: _Node.js - API REST com Express_
+- [x] 22-3: _Node.js - Testes de Integração_
+- [x] 22-4: _Node.js - Express e Middlewares_
+- [x] 22-5: _Node.js - Express e MySQL_
+- [x] 22-6: _[Projeto - Talker Manager]_
 
-##### Bloco 21: Bancos de dados relacionais
+### [Bloco 23: Arquitetura de Software: Model, Service e Controller](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/back-end/secao-arquitetura-de-software)
 
-- :heavy_check_mark: 21-1: _Funções mais usadas em SQL_
-- :heavy_check_mark: 21-2: _Descomplicando JOINs e UNIONs_
-- :heavy_check_mark: 21-3: _Rotinas e subconsultas armazenadas_
-- :heavy_check_mark: 21-4: _ [Projeto - Intensificador de Vocabulário] () _
+- [x] 23-1: _Arquitetura de Software - Camada Model_
+- [x] 23-2: _Arquitetura de Software - Camada Service_
+- [x] 23-3: _Arquitetura de Software - Camada Controller_
+- [x] 23-4: _[Projeto - Store Manager]_
 
-##### Bloco 22: Bancos de dados relacionais
+### [Bloco 24: Node.js: ORM e Autenticação](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/back-end/secao-orm)
 
-- :heavy_check_mark: 22-1: _Transformando ideias em um modelo de banco de dados_
-- :heavy_check_mark: 22-2: _Normalização, Formas Normais e Despejos_
-- :heavy_check_mark: 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- :heavy_check_mark: 22-3: _ [Projeto - Um Por Todos] () _
+- [x] 24-1: _ORM - Interface da aplicação com o banco de dados_
+- [x] 24-2: _ORM - Associations 1:1 e 1:N_
+- [x] 24-3: _ORM - Associations N:N e Transactions_
+- [x] 24-4: _JWT - (JSON Web Token)_
+- [x] 24-5: _[Projeto - API de Blogs]_
 
-##### Bloco 23: Introdução - NoSQL
+### Bloco 25: Masterclass: Implantação de Aplicações na Nuvem
 
-- :heavy_check_mark: 23-1: _MongoDB - Introdução_
-- :heavy_check_mark: 23-2: _Operadores de filtro_
-- :heavy_check_mark: 23-3: _ [Projeto - Voos de Dados] () _
+- [x] 25-1: _Infraestrutura: Deploy com Railway_
 
-##### Bloco 24: Atualizações
+### [Bloco 26: Introdução ao TypeScript](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/back-end/secao-typescript)
 
-- :heavy_check_mark: 24-1: atualizações simples
-- :heavy_check_mark: 24-2: _Updates Complex - Arrays - Parte 1_
-- :heavy_check_mark: 24-3: _Updates Complex - Arrays - Parte 2_
-- :heavy_check_mark: 24-4: _ [Projeto - Comércio] () _
+- [x] 26-1: _Introdução ao TypeScript_
+- [x] 26-2: _Tipagem Estática e Generics_
+- [x] 26-3: _Express com TypeScript_
+- [x] 26-4: _[Projeto - Trybesmith](_
 
-##### Bloco 25: Estrutura de Agregação
+### [Bloco 27: Programação Orientada a Objetos (POO) e SOLID](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/back-end/secao-POO-e-SOLID)
 
-- :heavy_check_mark: 25-1: _Estrutura de Agregação - Parte 1_
-- :heavy_check_mark: 25-2: _Estrutura de Agregação - Parte 2_
-- :heavy_check_mark: 25-3: _ [Projeto - Agregações] () _
+- [x] 27-1: _Introdução à Orientação a Objetos_
+- [x] 27-2: _Herança e Composição_
+- [x] 27-3: _Polimorfismo_
+- [x] 27-4: _SOLID - Introdução e Princípios S, O e D_
+- [x] 27-5: _SOLID - Princípios L e I_
+- [x] 27-6: _[Projeto - Trybers e Dragons]_
 
-##### Bloco 26: Introdução - NodeJS
+### Bloco 28: TFC - Trybe Futebol Clube
 
-- :heavy_check_mark: 26-1: _NodeJS - Introdução_
-- :heavy_check_mark: 26-2: _NodeJS - Fluxo Assíncrono_
-- :heavy_check_mark: 26-3: _NodeJS - Arquitetura_
-- :heavy_check_mark: 26-4: _ [Projeto - A CLI de Gelo e Fogo] () _
+- [x] 28-1: _[Projeto - TFC - Trybe Futebol Clube]_
 
-##### Bloco 27: NodeJS
+### [Bloco 29: Introdução ao MongoDB](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/back-end/secao-MongoDB/secao-MongoDB-introducao)
 
-- :heavy_check_mark: 27-1: _Express: HTTP como Node.js_
-- :heavy_check_mark: 27-2: _Arquitetura de Software - Introdução ao MVC_
-- :heavy_check_mark: 27-3: _ [Projeto - Cookmaster] () _
+- [x] 29-1: _MongoDB - Introdução_
+- [x] 29-2: _Filter Operators_
+- [x] 29-3: _Operadores de consulta_
+- [x] 29-4: _Updates Simples_
+- [x] 29-5: _Updates Complexos - Arrays_
+- [x] 29-6: _[Projeto - Commerce]_
 
-##### Bloco 28: NodeJS
+### Bloco 30: APIs OO e NoSQL
 
-- :heavy_check_mark: 28-1: _Arquitetura de Software - Camada de Serviço_
-- :heavy_check_mark: 28-2: _Arquitetura Web - Descanse e Descanse_
-- :heavy_check_mark: 28-3: _ [Projeto - Gerente de Loja] () _
+- [x] 30-1: _APIs Orientadas a Objetos e NoSQL: POO e ODMs_
+- [x] 30-2: _APIs Orientadas a Objetos e NoSQL: Herança e Abstração_
+- [x] 30-3: _Projeto - Car Shop_
 
-##### Bloco 29: NodeJS
+### Bloco 31: Projeto - App de Delivery
 
-- :heavy_check_mark: 29-1: _NodeJS - JWT - (JSON Web Token) _
-- :heavy_check_mark: 29-2: _NodeJS - Fazendo upload de arquivos com Multer_
-- :heavy_check_mark: 29-3: _ [Projeto - Cookmaster V2] () _
+- [x] 31-1: _[Projeto - App de Delivery]_
 
-##### Bloco 30: Introdução - Implantação
 
-- :heavy_check_mark: 30-1: _Infraestrutura - Implante com Heroku_
-- :heavy_check_mark: 30-2: _Implantar - Gerenciadores de Processos_
-- :heavy_check_mark: 30-3: _ [Projeto - Stranger Things] () _
+# Ciência da Computação
 
-##### Bloco 31: Projeto
+### [Bloco 32: Introdução à Python](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/computer_science/secao-introducao-a-python)
 
-- :heavy_check_mark: 31-1: _ [Projeto - Trybeer] () _
+- [x] 32-1: _Aprendendo Python_
+- [x] 32-2: _Entrada e Saída de Dados_
+- [x] 32-3: _Testes_
+- [x] 32-4: _[Projetos - Job Insights]_
 
-##### Bloco 32: Arquitetura de Software
+### [Bloco 33: Padrões de Projeto](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/computer_science/secao-padroes-de-projeto)
 
-- :heavy_check_mark: 32-1: _Arquitetura - Princípios SOLID_
-- :heavy_check_mark: 32-2: _ORM - Interface do aplicativo com banco de dados_
-- :heavy_check_mark: 32-3: _Arquitetura de software - DDD_
-- :heavy_check_mark: 32-4: _Boas Práticas de Redação_
-- :heavy_check_mark: 32-3: _ [Projeto - API do Blog] () _
+- [x] 33-1: _P.O.O em Python_
+- [x] 33-2: _Padrões - Iterator, Adapter, Strategy_
+- [x] 33-3: _Padrões - Decorator, Observer, Factory_
+- [x] 33-4: _[Projeto - Relatórios de Estoque]_
 
-##### Bloco 33: Soquetes
+### [Bloco 34: Raspagem de Dados](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/computer_science/secao-raspagem-de-dados)
 
-- :heavy_check_mark: 30-1: _Sockets - TCP/UDP & NET_
-- :heavy_check_mark: 30-2: _Sockets - Socket.io_
-- :heavy_check_mark: 30-3: _ [Projeto - Webchat] () _
+- [x] 34-1: _Raspagem de Dados_
+- [x] 34-2: _Outras Ferramentas de Raspagem de Dados_
+- [x] 34-3: _Dia de Atividades - Crawlers + POO_
+- [x] 34-4: _[Projeto - Tech News]_
 
-##### Bloco 34: Projeto
+### [Bloco 35: Algoritmos](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/computer_science/secao-Algoritmos)
 
-- :heavy_check_mark: 34-1: _ [Projeto - Trybeer V2] () _
+- [x] 35-1: _Complexidade de Algoritmos_
+- [x] 35-2: _Recursividade e Estratégias para solução de problemas_
+- [x] 35-3: _Algoritmos de ordenação e busca_
+- [x] 35-4: _Projeto - Algoritmos_
 
-## Ciência da Computação :hourglass_flowing_sand:
+### [Bloco 36: Estrutura de Dados I: Arrays, Listas, Filas e Pilhas](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/computer_science/secao-estrutura-de-dados)
 
-##### Bloco 35: Introdução - Ciência da Computação
+- [x] 36-1: _Arquitetura de Computadores_
+- [ ] 36-1: _Arrays_
+- [ ] 36-1: _Nós e Listas Encadeadas_
+- [ ] 36-1: _Pilhas e Filas_
+- [ ] 36-1: _Projeto - TING - Trybe Is Not Google_
 
-- :heavy_check_mark: 35-1: _Arquitetura de Computadores_
-- [] 35-2: _Arquitetura de Rede_
-- [] 35-3: _Rede de Computadores, Ferramentas e Segurança_
-- [] 35-4: _ [Projeto - Explorando Protocolos] () _
+### Bloco 37: Estrutura de Dados II: Hashmaps e Sets
 
-##### Bloco 36: Python
-
-- :heavy_check_mark: 35-1: _Aprendendo Python_
-- :heavy_check_mark: 35-2: _Testes e exceções_
-- :heavy_check_mark: 35-3: _Entrada e Saída de Dados_
-- :heavy_check_mark: 36-4: _Entrada e Saída de Dados_
-- :heavy_check_mark: 35-5: _ [Projeto - Notícias de tecnologia] () _
-
-# [...]
+- [ ] 37-1: _Hashmap e Dict_
+- [ ] 37-1: _Set_
+- [ ] 37-1: _Projeto - Restaurant Orders_
