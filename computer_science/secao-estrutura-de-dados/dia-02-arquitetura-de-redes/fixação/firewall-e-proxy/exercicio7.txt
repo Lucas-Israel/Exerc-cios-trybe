@@ -1,0 +1,5 @@
+Agora que você sabe para que serve o Proxy, dê exemplos de seu uso na vida real.
+
+  para evitar acessos a redes sociais em escritórios o proxy pode ser utilizado para reconhecer palavras-chave em URLs e então recusá-las.
+  podem impedir que pessoas usuárias acessem sites com conteúdos impróprios ou com potencial de ser uma página maliciosa.
+  proxies são utilizados em crawlers, para raspagem de dados.

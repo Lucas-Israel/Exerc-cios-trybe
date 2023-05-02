@@ -1,0 +1,6 @@
+No modelo ISO/OSI, qual é a responsabilidade de suas camadas?**
+
+  Nesse modelo, cada camada é responsável pela adição de uma nova funcionalidade aos dados vindos de uma camada superior a ela. 
+  Assim, os dados que passam por uma camada são reempacotados pela camada seguinte e recebem um novo cabeçalho adicional que será 
+  interpretado pela camada correspondente na outra ponta da comunicação. Por exemplo: o que é escrito pela camada de transporte no emissor, 
+  será interpretado somente pela camada de transporte no destinatário, e assim sucessivamente.

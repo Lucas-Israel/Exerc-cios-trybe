@@ -1,0 +1,4 @@
+Cite recursos que podemos utilizar para minimizar os riscos de ataques.
+
+  senhas fortes e outros métodos de segurança pessoais com os nossos logins, como o uso de segundo fator de autenticação 
+  e configuração em camadas de proteção extra em nossos servidores.

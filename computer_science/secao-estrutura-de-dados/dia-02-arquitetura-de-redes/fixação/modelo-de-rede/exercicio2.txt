@@ -1,0 +1,5 @@
+Sabemos que nós, seres humanos, temos domínio para lidar com nomes, como por exemplo (www.betrybe.com), 
+e as máquinas por sua vez trabalham com números.Sabendo disso, qual o nome do serviço usado para converter
+nomes legíveis por humanos em endereços IP lidos pelas máquinas?
+
+  Serviço DNS
