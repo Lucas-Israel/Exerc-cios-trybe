@@ -124,7 +124,7 @@ O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução d
 
 - [x] 16-1: _[Projeto - Jogo de Trivia]_
 
-### Bloco 17: Context API e React Hooks
+### Bloco 17: [Context API e React Hooks](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/front-end/secao-9-Context-Api-React-Hooks/dia-03-react-hooks-useEffect-e-hooks-personalizados)
 
 - [x] 17-1: _Context API do React_
 - [x] 17-2: _React Hooks - useState e useContext_
