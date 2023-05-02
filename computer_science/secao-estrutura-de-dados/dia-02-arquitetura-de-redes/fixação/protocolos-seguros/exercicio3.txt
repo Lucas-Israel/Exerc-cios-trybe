@@ -1,0 +1,3 @@
+Cite dois conceitos comumente utilizados em segurança nas redes.
+
+  Quando falamos de segurança nas redes, conceitos muito presentes são o de criptografia e o de certificados de segurança.

@@ -1,0 +1,3 @@
+É verdade que os Firewalls são usados apenas para impedir a entrada de tráfegos em uma rede?
+
+  O firewall é usado para impedir acessos indevidos e permitir acessos ao computador que esta em uma rede.

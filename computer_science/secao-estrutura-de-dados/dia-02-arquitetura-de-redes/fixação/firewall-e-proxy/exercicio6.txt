@@ -1,0 +1,5 @@
+Como funciona o Fail2ban?
+
+  Essa ferramenta monitora os logs da rede e cria regras no iptables ao detectar comportamento suspeito, 
+  como diversas requisições de um mesmo IP ou diversas tentativas de login SSH, de modo a rejeitar 
+  aquele endereço de IP específico por determinado tempo.
