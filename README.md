@@ -6,7 +6,7 @@ O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução d
 
 # Fundamentos do Desenvolvimento Web
 
-### [Bloco 1: Unix & Bash]
+### [Bloco 1: Unix & Bash](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/fundamentos/bloco-01-unix-e-shell)
 
 - [x] 1-3: _Unix & Bash - Parte 1_
 - [x] 1-4: _Unix & Bash - Parte 2_
