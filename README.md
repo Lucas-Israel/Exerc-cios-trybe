@@ -260,13 +260,15 @@ O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução d
 ### [Bloco 36: Estrutura de Dados I: Arrays, Listas, Filas e Pilhas](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/computer_science/secao-estrutura-de-dados)
 
 - [x] 36-1: _Arquitetura de Computadores_
-- [ ] 36-1: _Arrays_
-- [ ] 36-1: _Nós e Listas Encadeadas_
-- [ ] 36-1: _Pilhas e Filas_
-- [ ] 36-1: _Projeto - TING - Trybe Is Not Google_
+- [x] 36-2: _Arquitetura de redes_
+- [ ] 36-3: _Arrays_
+- [ ] 36-4: _Nós e Listas Encadeadas_
+- [ ] 36-5: _Pilhas e Filas_
+- [ ] 36-6: _Projeto - TING - Trybe Is Not Google_
 
 ### Bloco 37: Estrutura de Dados II: Hashmaps e Sets
 
 - [ ] 37-1: _Hashmap e Dict_
-- [ ] 37-1: _Set_
-- [ ] 37-1: _Projeto - Restaurant Orders_
+- [ ] 37-2: _Set_
+- [ ] 37-3: _Pandas_
+- [ ] 37-4: _Projeto - Restaurant Orders_
