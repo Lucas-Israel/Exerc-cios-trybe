@@ -1,0 +1,3 @@
+Q: Listas(list), dicionários(dict) e conjuntos(set), que já vêm no Python, são considerados tipos de dados? Caso negativo, justifique sua resposta.
+
+A: Sim, são tipos de dados.

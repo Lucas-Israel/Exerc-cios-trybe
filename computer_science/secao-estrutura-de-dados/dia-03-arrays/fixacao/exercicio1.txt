@@ -1,0 +1,4 @@
+Q: Tipos abstratos de dados possuem uma única implementação bem documentada?
+
+A: Depende, um TAD pode ser implementados de várias maneiras. É bom que seja bem documentado, para facilitar a implementação de any dados,
+sem que outros desenvolvedores precisam conhecer detalhes da implementação.
