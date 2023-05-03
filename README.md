@@ -31,7 +31,7 @@ O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução d
 - [x] 4-2: _JavaScript - Array e loop For_
 - [x] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [x] 4-4: _JavaScript - Objetos e funções_
-- [x] 4-5: _[Projeto - Playground Functions]_
+- [x] 4-5: _[Projeto - Playground Functions](https://github.com/Lucas-Israel/project-playground-functions)_
 
 ### [Bloco 5: JavaScript: DOM, Eventos e Web Storage](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/fundamentos/bloco-5-javascript-dom-eventos-e-web-storage)
 
