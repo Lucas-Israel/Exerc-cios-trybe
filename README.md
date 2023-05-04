@@ -44,7 +44,7 @@ O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução d
 - [x] 5-6: _[(Bônus) Projeto - Lista de Tarefas](https://github.com/Lucas-Israel/project-todo-list)_
 - [x] 5-7: _[(Bônus) Projeto - Carta Misteriosa](https://github.com/Lucas-Israel/project-mistery-letter)_
 - [x] 5-7: _[(Bônus) Projeto - Meme Generator](https://github.com/Lucas-Israel/project-meme-generator)_
-- [x] 5-7: _[(Bônus) Projeto - Adivinhe a Cor]_
+- [x] 5-7: _[(Bônus) Projeto - Adivinhe a Cor](https://github.com/Lucas-Israel/project-color-guess)_
 
 ### [Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/fundamentos/bloco-6-html-e-css-forms-flexbox-e-responsivo)
 
