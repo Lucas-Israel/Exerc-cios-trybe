@@ -70,7 +70,7 @@ O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução d
 - [x] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [x] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
 - [x] 8-5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
-- [x] 8-6: _[Projeto - Zoo functions]_
+- [x] 8-6: _[Projeto - Zoo functions](https://github.com/Lucas-Israel/project-zoo-functions)_
 
 # Desenvolvimento Front-end
 
