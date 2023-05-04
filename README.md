@@ -42,7 +42,7 @@ O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução d
 - [x] 5-5: _Fundamentos - JavaScript - Projetos_
 - [x] 5-5: _[Projeto - Arte com Pixels](https://github.com/Lucas-Israel/project-pixels-art)_
 - [x] 5-6: _[(Bônus) Projeto - Lista de Tarefas](https://github.com/Lucas-Israel/project-todo-list)_
-- [x] 5-7: _[(Bônus) Projeto - Carta Misteriosa]_
+- [x] 5-7: _[(Bônus) Projeto - Carta Misteriosa](https://github.com/Lucas-Israel/project-mistery-letter)_
 - [x] 5-7: _[(Bônus) Projeto - Meme Generator]_
 - [x] 5-7: _[(Bônus) Projeto - Adivinhe a Cor]_
 
