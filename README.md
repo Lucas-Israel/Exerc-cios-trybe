@@ -54,7 +54,7 @@ O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução d
 - [x] 6-3: _CSS Flexbox - Parte 1_
 - [x] 6-4: _CSS Flexbox - Parte 2_
 - [x] 6-5: _CSS Responsivo - Mobile First_
-- [x] 6-6: _[Projeto - Trybewarts]_
+- [x] 6-6: _[Projeto - Trybewarts](https://github.com/Lucas-Israel/project-trybewarts)_
 
 ### [Bloco 7: Introdução à JavaScript ES6 e Testes Unitários](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/fundamentos/bloco-7-introducao-a-javascript-es6-e-testes-unitarios)
 
