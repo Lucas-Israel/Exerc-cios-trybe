@@ -1,8 +1,12 @@
 class DNode:
-    def __init__(self, value):
-        self.value = value  # 🎲 Dado a ser armazenado
-        self.next = None  # 👉 Forma de apontar para outro nó
-        self.prev = None  # 👉 Forma de apontar para o nó anterior
+    def __init__(self, value=None):
+        self.value = value
+        self.next = None
+        self.previous = None
 
     def __str__(self):
-        return f"Node(value={self.value}, prev={self.prev})"
+        return f"Node(value={self.value}, next={self.next})"
+
+    def reset(self):
+        self.next = None
+        self.previous = None
