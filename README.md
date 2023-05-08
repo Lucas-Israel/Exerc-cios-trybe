@@ -85,7 +85,7 @@ O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução d
 
 - [x] 10-1: _'Hello, world!' no React!_
 - [x] 10-2: _Componentes React_
-- [x] 10-3: _[Projeto - Sistema Solar]_
+- [x] 10-3: _[Projeto - Sistema Solar](https://github.com/Lucas-Israel/project-solar-system)_
 
 ### [Bloco 11: Componentes com Estado, Eventos e Formulários com React](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/front-end/bloco-11-componentes-com-estado-eventos-e-formularios-com-react)
 
