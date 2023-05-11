@@ -91,7 +91,7 @@ O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução d
 
 - [x] 11-1: _Componentes com estado e eventos_
 - [x] 11-2: _Formulários no React_
-- [x] 11-3: _[Projeto - Tryunfo]_
+- [x] 11-3: _[Projeto - Tryunfo](https://github.com/Lucas-Israel/project-tryunfo)_
 
 ### [Bloco 12: Ciclo de Vida de Componentes e React Router](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/front-end/bloco-12-ciclo-de-vida-de-componentes-e-react-router)
 
