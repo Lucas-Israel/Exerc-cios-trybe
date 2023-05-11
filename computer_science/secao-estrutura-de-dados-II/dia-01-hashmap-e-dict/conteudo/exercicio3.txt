@@ -1,0 +1,10 @@
+Q: Exercício 3: Descubra qual técnica de tratamento de colisão é utilizada pelo Dict, de Python e o HashMap, do Java. 
+Em inglês, o termo de busca é “collision resolution“.
+
+
+A: Python usa Open adressing para resolver colisoes 
+
+https://www.geeksforgeeks.org/open-addressing-collision-handling-technique-in-hashing/
+
+A classe HashMap, de Java, utiliza a técnica de Separate Chaining, mas quando a lista do bucket começa a ficar grande, 
+Java substitui essa lista por uma Árvore Binária de Busca.
