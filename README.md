@@ -264,7 +264,7 @@ O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução d
 - [x] 36-3: _Arrays_
 - [x] 36-4: _Nós e Listas Encadeadas_
 - [x] 36-5: _Pilhas e Filas_
-- [ ] 36-6: _Projeto - TING - Trybe Is Not Google_
+- [x] 36-6: _Projeto - TING - Trybe Is Not Google_
 
 ### Bloco 37: Estrutura de Dados II: Hashmaps e Sets
 
