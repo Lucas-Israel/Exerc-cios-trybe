@@ -102,7 +102,7 @@ O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução d
 ### Bloco 13: Metodologias Ágeis
 
 - [x] 13-1: _Metodologias Ágeis_
-- [x] 13-2: _[Projeto - Frontend Online Store]_
+- [x] 13-2: _[Projeto - Frontend Online Store](https://github.com/Lucas-Israel/project-online-store)_
 
 ### [Bloco 14: Testes automatizados com React Testing Library](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/front-end/bloco-14-testes-automatizados-com-react-testing-library)
 
