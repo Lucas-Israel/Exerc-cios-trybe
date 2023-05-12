@@ -109,7 +109,7 @@ O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução d
 - [x] 14-1: _RTL - Primeiros passos_
 - [x] 14-2: _RTL - Mocks e Inputs_
 - [x] 14-3: _Testando React Router_
-- [x] 14-4: _[Projeto - Testes em React]_
+- [x] 14-4: _[Projeto - Testes em React](https://github.com/Lucas-Israel/project-react-testing-library)_
 
 ### [Bloco 15: Gerenciamento de estado com Redux](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/front-end/bloco-15-gerenciamento-de-estado-com-redux)
 
