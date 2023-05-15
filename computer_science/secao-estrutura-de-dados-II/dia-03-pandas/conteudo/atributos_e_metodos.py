@@ -11,7 +11,7 @@ preco_eletrodomesticos = pd.DataFrame(
             "batedeira",
             "playstation5",
         ],
-        "preco": [3000, 1200, 200, 400, 150, 4500],
+        "preco": [3000.05, 1200, 200, 400, 150, 4500],
     }
 )
 
