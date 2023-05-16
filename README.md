@@ -266,7 +266,7 @@ O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução d
 - [x] 36-5: _Pilhas e Filas_
 - [x] 36-6: _Projeto - TING - Trybe Is Not Google_
 
-### Bloco 37: Estrutura de Dados II: Hashmaps e Sets
+### [Bloco 37: Estrutura de Dados II: Hashmaps e Sets](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/computer_science/secao-estrutura-de-dados-II)
 
 - [x] 37-1: _Hashmap e Dict_
 - [x] 37-2: _Set_
