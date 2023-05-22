@@ -133,7 +133,7 @@ O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução d
 
 ### Bloco 18: Projeto App de Receitas
 
-- [x] 18-1: _[Projeto - App de Receitas]_
+- [x] 18-1: _[Projeto - App de Receitas](https://github.com/Lucas-Israel/project-recipes-app)_
 
 # Desenvolvimento Back-end
 
