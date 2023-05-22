@@ -129,7 +129,7 @@ O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução d
 - [x] 17-1: _Context API do React_
 - [x] 17-2: _React Hooks - useState e useContext_
 - [x] 17-3: _React Hooks - useEffect e Hooks customizados_
-- [x] 17-4: _[Projeto - StarWars Planet Search]_
+- [x] 17-4: _[Projeto - StarWars Planet Search](https://github.com/Lucas-Israel/project-star-wars-planets-search)_
 
 ### Bloco 18: Projeto App de Receitas
 
