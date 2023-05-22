@@ -122,7 +122,7 @@ O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução d
 
 ### Bloco 16: Projeto Jogo de Trivia
 
-- [x] 16-1: _[Projeto - Jogo de Trivia]_
+- [x] 16-1: _[Projeto - Jogo de Trivia](https://github.com/Lucas-Israel/project-trivia)_
 
 ### Bloco 17: [Context API e React Hooks](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/front-end/secao-9-Context-Api-React-Hooks/dia-03-react-hooks-useEffect-e-hooks-personalizados)
 
