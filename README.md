@@ -150,14 +150,14 @@ O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução d
 - [x] 20-2: _Encontrando dados em um banco de dados_
 - [x] 20-3: _Filtrando dados de forma específica_
 - [x] 20-4: _Manipulando tabelas_
-- [x] 20-5: _[Projeto - All For One]_
+- [x] 20-5: _[Projeto - All For One](https://github.com/Lucas-Israel/project-mysql-all-for-one)_
 
 ### Bloco 21: Funções SQL, JOINs e Normalização
 
 - [x] 21-1: _Funções mais usadas no SQL_
 - [x] 21-2: _Descomplicando JOINs_
 - [x] 21-3: _Transformando ideias em um modelo de banco de dados_
-- [x] 21-4: _[Projeto - One For All]_
+- [x] 21-4: _[Projeto - One For All](https://github.com/Lucas-Israel/project-mysql-one-for-all)_
 
 ### [Bloco 22: Introdução ao desenvolvimento Web com Node.js](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/back-end/secao-desenvolvimento-web-com-nodeJs)
 
