@@ -166,7 +166,7 @@ O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução d
 - [x] 22-3: _Node.js - Testes de Integração_
 - [x] 22-4: _Node.js - Express e Middlewares_
 - [x] 22-5: _Node.js - Express e MySQL_
-- [x] 22-6: _[Projeto - Talker Manager]_
+- [x] 22-6: _[Projeto - Talker Manager](https://github.com/Lucas-Israel/project-talker-manager)_
 
 ### [Bloco 23: Arquitetura de Software: Model, Service e Controller](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/back-end/secao-arquitetura-de-software)
 
