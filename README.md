@@ -142,7 +142,7 @@ O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução d
 - [x] 19-1: _Utilizando Containers - Docker_
 - [x] 19-2: _Manipulando Imagens no Docker_
 - [x] 19-3: _Orquestrando Containers com Docker Compose_
-- [x] 19-4: _[Projeto - Docker Todo-List]_
+- [x] 19-4: _[Projeto - Docker Todo-List](https://github.com/Lucas-Israel/project-docker-todo-list)_
 
 ### Bloco 20: Introdução à SQL
 
