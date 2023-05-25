@@ -224,7 +224,7 @@ O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução d
 
 ### Bloco 31: Projeto - App de Delivery
 
-- [x] 31-1: _[Projeto - App de Delivery]_
+- [x] 31-1: _[Projeto - App de Delivery](https://github.com/Lucas-Israel/project-delivery-app)_
 
 
 # Ciência da Computação
