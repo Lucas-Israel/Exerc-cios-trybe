@@ -201,7 +201,7 @@ O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução d
 - [x] 27-3: _Polimorfismo_
 - [x] 27-4: _SOLID - Introdução e Princípios S, O e D_
 - [x] 27-5: _SOLID - Princípios L e I_
-- [x] 27-6: _[Projeto - Trybers e Dragons]_
+- [x] 27-6: _[Projeto - Trybers e Dragons](https://github.com/Lucas-Israel/project-trybers-and-dragons)_
 
 ### Bloco 28: TFC - Trybe Futebol Clube
 
