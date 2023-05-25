@@ -192,7 +192,7 @@ O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução d
 - [x] 26-1: _Introdução ao TypeScript_
 - [x] 26-2: _Tipagem Estática e Generics_
 - [x] 26-3: _Express com TypeScript_
-- [x] 26-4: _[Projeto - Trybesmith]_
+- [x] 26-4: _[Projeto - Trybesmith](https://github.com/Lucas-Israel/project-trybesmith)_
 
 ### [Bloco 27: Programação Orientada a Objetos (POO) e SOLID](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/back-end/secao-POO-e-SOLID)
 
