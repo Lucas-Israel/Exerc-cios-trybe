@@ -214,7 +214,7 @@ O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução d
 - [x] 29-3: _Operadores de consulta_
 - [x] 29-4: _Updates Simples_
 - [x] 29-5: _Updates Complexos - Arrays_
-- [x] 29-6: _[Projeto - Commerce]_
+- [x] 29-6: _[Projeto - Commerce](https://github.com/Lucas-Israel/project-mongodb-commerce)_
 
 ### Bloco 30: APIs OO e NoSQL
 
