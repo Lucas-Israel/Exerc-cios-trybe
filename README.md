@@ -271,4 +271,4 @@ O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução d
 - [x] 37-1: _Hashmap e Dict_
 - [x] 37-2: _Set_
 - [x] 37-3: _Pandas_
-- [ ] 37-4: _Projeto - Restaurant Orders_
+- [x] 37-4: _Projeto - Restaurant Orders_
