@@ -220,7 +220,7 @@ O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução d
 
 - [x] 30-1: _APIs Orientadas a Objetos e NoSQL: POO e ODMs_
 - [x] 30-2: _APIs Orientadas a Objetos e NoSQL: Herança e Abstração_
-- [x] 30-3: _Projeto - Car Shop_
+- [x] 30-3: _[Projeto - Car Shop](https://github.com/Lucas-Israel/project-car-shop)_
 
 ### Bloco 31: Projeto - App de Delivery
 
