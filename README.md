@@ -241,7 +241,7 @@ O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução d
 - [x] 33-1: _P.O.O em Python_
 - [x] 33-2: _Padrões - Iterator, Adapter, Strategy_
 - [x] 33-3: _Padrões - Decorator, Observer, Factory_
-- [x] 33-4: _[Projeto - Relatórios de Estoque]_
+- [x] 33-4: _[Projeto - Relatórios de Estoque](https://github.com/Lucas-Israel/project-inventory-report)_
 
 ### [Bloco 34: Raspagem de Dados](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/computer_science/secao-raspagem-de-dados)
 
