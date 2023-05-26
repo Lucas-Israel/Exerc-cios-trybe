@@ -248,14 +248,14 @@ O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução d
 - [x] 34-1: _Raspagem de Dados_
 - [x] 34-2: _Outras Ferramentas de Raspagem de Dados_
 - [x] 34-3: _Dia de Atividades - Crawlers + POO_
-- [x] 34-4: _[Projeto - Tech News]_
+- [x] 34-4: _[Projeto - Tech News](https://github.com/Lucas-Israel/project-tech-news)_
 
 ### [Bloco 35: Algoritmos](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/computer_science/secao-Algoritmos)
 
 - [x] 35-1: _Complexidade de Algoritmos_
 - [x] 35-2: _Recursividade e Estratégias para solução de problemas_
 - [x] 35-3: _Algoritmos de ordenação e busca_
-- [x] 35-4: _Projeto - Algoritmos_
+- [x] 35-4: _[Projeto - Algoritmos](https://github.com/Lucas-Israel/project-algorithms)_
 
 ### [Bloco 36: Estrutura de Dados I: Arrays, Listas, Filas e Pilhas](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/computer_science/secao-estrutura-de-dados)
 
@@ -264,11 +264,11 @@ O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução d
 - [x] 36-3: _Arrays_
 - [x] 36-4: _Nós e Listas Encadeadas_
 - [x] 36-5: _Pilhas e Filas_
-- [x] 36-6: _Projeto - TING - Trybe Is Not Google_
+- [x] 36-6: _[Projeto - TING - Trybe Is Not Google](https://github.com/Lucas-Israel/project-ting)_
 
 ### [Bloco 37: Estrutura de Dados II: Hashmaps e Sets](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/computer_science/secao-estrutura-de-dados-II)
 
 - [x] 37-1: _Hashmap e Dict_
 - [x] 37-2: _Set_
 - [x] 37-3: _Pandas_
-- [x] 37-4: _Projeto - Restaurant Orders_
+- [x] 37-4: _[Projeto - Restaurant Orders](https://github.com/Lucas-Israel/project-restaurant-orders)_
