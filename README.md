@@ -234,7 +234,7 @@ O programa tem mais de 1.500 horas de aulas online, e apresenta a introdução d
 - [x] 32-1: _Aprendendo Python_
 - [x] 32-2: _Entrada e Saída de Dados_
 - [x] 32-3: _Testes_
-- [x] 32-4: _[Projetos - Job Insights]_
+- [x] 32-4: _[Projetos - Job Insights](https://github.com/Lucas-Israel/project-job-insights)_
 
 ### [Bloco 33: Padrões de Projeto](https://github.com/Lucas-Israel/Exercicios-trybe/tree/master/computer_science/secao-padroes-de-projeto)
 
